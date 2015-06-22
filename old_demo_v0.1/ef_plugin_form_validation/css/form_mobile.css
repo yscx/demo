@@ -1,0 +1,361 @@
+@charset "utf-8";
+/* CSS Document */
+/* -------------------------  START reset -------------------------  */
+
+
+html {
+	-webkit-text-size-adjust: none;
+}/* fix chrome 12px */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+table th, table td {
+}
+body {
+	font-family:'kievitcomppro', Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	line-height:1.3em;
+	color:#787878;
+	word-wrap: break-word;
+	border-top:3px solid #444;
+	background-color:#e4e6e5;
+}
+input, select, textarea {
+	font-size:1em;
+	line-height:1.5em;
+	vertical-align:middle;
+	padding:0px;
+	margin:0px;
+	overflow:hidden;
+	font-size:100%;
+	display:inline-block;
+ font-family:font-family:'kievitcomppro', Arial, Helvetica, sans-serif;
+	color:#787878;
+}
+button, input, select, label {
+	vertical-align: middle;
+	display:inline-block;
+}
+h1, h2, h3, h4, h5, h6, p {
+	font-weight:normal;
+}
+h1 {
+	color: #3176fc;
+	font-size: 1.4em;
+	line-height:1.5em;
+	font-weight: bold;
+}
+h2 {
+	font-size: 1.3em;
+}
+h3 {
+	font-size: 1.2em;
+}
+h4 {
+	font-size: 1em;
+}
+h5 {
+	font-size: 1em;
+}
+h6 {
+	font-size: 0.833em;
+}
+em {
+}
+a {
+	text-decoration:none;
+	color:#8a7ebe;
+}
+ol li {
+	list-style-type:decimal;
+	list-style-position:inside;
+}
+ul, ol, dl {
+	list-style-image:none;
+	list-style-type:none;
+}
+pre {
+	padding:10px;
+	border:1px solid #fff;
+	margin-bottom:20px;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-khtml-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+/* END CSS RESET */
+
+
+.fl {
+	float:left;
+	display:inline;
+}
+.fr {
+	float:right;
+	display:inline;
+}
+.pt5 {
+	padding-top: 5px;
+}
+.pt10 {
+	padding-top: 10px;
+}
+.pt15 {
+	padding-top: 15px;
+}
+.pt20 {
+	padding-top: 20px;
+}
+.mt5 {
+	margin-top: 5px;
+}
+.mt10 {
+	margin-top: 10px;
+}
+.mt15 {
+	margin-top: 15px;
+}
+.mt20 {
+	margin-top: 20px;
+}
+.mt21 {
+	margin-top: 10px;
+}
+.pb5 {
+	padding-bottom: 5px;
+}
+.pb10 {
+	padding-bottom: 10px;
+}
+.pb15 {
+	padding-bottom: 15px;
+}
+.pb20 {
+	padding-bottom: 20px;
+}
+.ml10 {
+	margin-left:10px;
+}
+.mb5 {
+	margin-bottom: 5px;
+}
+.mb10 {
+	margin-bottom: 10px;
+}
+.mb15 {
+	margin-bottom: 15px;
+}
+.mb20 {
+	margin-bottom: 20px;
+}
+.p20 {
+	padding: 20px;
+}
+._m10 {
+	margin:-10px;
+}
+/* -------------------------  end reset -------------------------  */
+
+/* layout */
+.page_wrap, .hp_wrap {
+	width: 640px;
+	min-height: 400px;
+	min-width: 640px;
+	margin: 0 auto;
+	overflow: hidden;
+	position: relative;
+}
+/*
+form elements
+table layout
+
+*/
+
+
+/*
+START @module
+表单相关
+*/
+
+
+.label_input_wrap {
+	display: inline-block;
+	font-size:1.0em;
+	position: relative;
+}
+.label_input_wrap label {
+	left: 4px;
+	line-height: 1.0em;
+	position: absolute;
+	top: 0;
+}
+.input_text {
+	height:70px;
+	line-height:70px;
+	border:2px solid #787878;
+	background-color:#fff;
+	width:554px;
+	padding-left:20px;
+	padding-right:2px;
+	font-size:30px;
+}
+.error_tip {
+	display:none;
+	color:#f00;
+}
+.error .error_tip {
+	display:block;
+}
+.error .input_text {
+	border:2px solid #f00;
+}
+/*
+END @module
+表单相关
+*/
+
+
+
+
+
+/* button */
+.btn_size_l {
+	display: block;
+	border: 2px solid #DAB271;
+	height: 85px;
+	color: white;
+	line-height: 85px;
+	font-size: 36px;
+	font-weight: bold;
+	border-radius: 10px;
+	background: -moz-linear-gradient(90deg, #DAB271, #E6C993);
+	background: -webkit-gradient(linear, 50% 100%, 50% 0%, from(#DAB271), to(#E6C993));
+	background: -webkit-linear-gradient(90deg, #DAB271, #E6C993);
+	background: -o-linear-gradient(90deg, #DAB271, #E6C993);
+	font-family: 'helvetica_neue_medium';
+	text-align: center;
+	border-image: initial;
+}
+
+
+
+/* 预定表单 */
+.mod_reservation_wrap h1 .ttel {
+	float:right;
+	display:inline-block;
+	background:url(../images/icon_tel.jpg) left top no-repeat;
+	padding-left:40px;
+	color: #787878;
+	font-size:30px;
+	font-weight:normal;
+}
+.mod_reservation_form {
+
+}
+.mod_reservation_form .mod_venue_filter{
+
+}
+.mod_reservation_form .mod_venue_filter .venue_error{
+	display:none;
+	color:#f00;	
+}
+.mod_reservation_form .mod_venue_filter select{
+	width:100%;
+	height:70px;
+	line-height:70px;
+	font-size:30px;
+	padding-left:20px;
+	font-family: 'kievitcomppro_bold';
+}
+.mod_reservation_form .mod_venue_filter select option{
+
+}
+.mod_reservation_form .row {
+	margin-bottom:30px;
+}
+.mod_reservation_form .row .col_1 {
+	width:100%;
+	width:180px;
+	font-size:30px;
+	line-height:1.2em;
+	padding-bottom:5px;
+}
+.mod_reservation_form .row .col_2 {
+}
+.mod_reservation_form .number_range_wrap {
+	position:relative;
+	height:74px;
+	width:100%;
+	display:block;
+}
+.mod_reservation_form .number_range_wrap .input_text {
+	position:absolute;
+	left:0px;
+	top:0px;
+	z-index:10;
+	text-align:center;
+	font-family: 'kievitcomppro_bold';
+	color:#787878;
+}
+
+.mod_reservation_form .number_range_wrap .arr_left {
+	position:absolute;
+	left:2px;
+	top:2px;
+	height:70px;
+	z-index:30;
+	cursor:pointer;
+	width:130px;
+	background: url(../../images/en/arr_left_h17.png) center center no-repeat;
+	padding-left:0px;
+}
+.mod_reservation_form .number_range_wrap .arr_right {
+	position:absolute;
+	right:2px;
+	top:2px;
+	height:70px;
+	z-index:30;
+	cursor:pointer;
+	width:130px;
+	background: url(../../images/en/arr_right_h17.png) center center no-repeat;/* EFEEFE F7F7FB*/
+	padding-right:0px;
+	border-radius:10px;
+}
+.mod_reservation_form #reservation_date {
+	background:url(../images/icon_datepicker.png) 92% center no-repeat #fff;
+}
+.mod_reservation_form label {
+	heigth:70px;
+	line-height:70px;
+	top:2px;
+	left:20px;
+	font-family: 'kievitcomppro_bold';
+	font-size:30px;
+	color:#a9a9a9;
+}
+.mod_reservation_form #reservation_time {
+	background:url(../images/icon_time.png) 92% center no-repeat #fff;
+}
+
+
+

@@ -1,0 +1,83 @@
+@charset "utf-8";
+/* CSS Document */
+
+.slidorion {
+  margin:10px 0 10px 0;
+}
+.link-header {
+  position:relative;
+  height:25px;
+  background:#f2f2f2;
+  border-top:1px solid #ccc;
+  background:-moz-linear-gradient(top, #ededed 59%, #dcdcdc 100%);
+  background:-webkit-linear-gradient(top, #ededed 59%, #dcdcdc 100%);
+  background:-o-linear-gradient(top, #ededed 59%, #dcdcdc 100%);
+  background:-ms-linear-gradient(top, #ededed 59%, #dcdcdc 100%);
+  background:linear-gradient(top, #ededed 59%, #dcdcdc 100%);
+ filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#ededed', endColorstr='#dcdcdc', GradientType=0 );
+}
+.link-content {
+  background:#f2f2f2;
+}
+.link-header a {
+  text-decoration:none;
+}
+.link-header .area_address {
+  font-family:Georgia, "Times New Roman", Times, serif;
+  font-size:16px;
+  color:#7f7f7f;
+  padding:3px 15px 3px 15px;
+  float:left;
+}
+.link-header .address_name {
+  float:left;
+  padding:3px 0px 3px 120px;
+  font-family:Georgia, "Times New Roman", Times, serif;
+  font-size:17px;
+  color:#b48a54;
+  text-decoration:none;
+}
+.link-header .address_number {
+  float:left;
+  padding:3px 0px 3px 10px;
+  font-family:Georgia, "Times New Roman", Times, serif;
+  font-size:13px;
+  color:#e9247f;
+  text-decoration:none;
+}
+.link-header .address_ment {
+  font-family:Georgia, "Times New Roman", Times, serif;
+  font-size:13px;
+  color:#008000;
+  float:right;
+  padding:3px 5px;
+}
+.link-content .text-content-button {
+  float:left;
+  padding:50px 15px 10px;
+}
+.link-content .text-content-txt {
+  float:left;
+  width:500px;
+  padding:20px 0 5px;
+}
+.text-content-txt .txt-top {
+}
+.text-content-txt .txt-bottom {
+  font-family:Georgia, "Times New Roman", Times, serif;
+  font-size:11px;
+  color:#008000;
+}
+.text-content-button .content-child {
+  padding:5px 0;
+}
+.clearfix:after {
+  content:".";
+  display:block;
+  height:0;
+  visibility:hidden;
+  clear:both;
+}
+.clearfix {
+  display:block;
+}

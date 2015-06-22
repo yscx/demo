@@ -1,0 +1,344 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+<title>产品比较</title>
+
+<!-- START 自定义 head -->
+<link href="images/reset.css" type="text/css" rel="stylesheet" />
+<link href="images/product_compare.css" type="text/css" rel="stylesheet" />
+<script src="images/jquery-1.8.2.min.js" type="text/javascript" ></script>
+<!-- END 自定义 head -->
+</head>
+<body>
+
+
+  
+  <!-- START main content -->
+  <div class="main_content"> 
+
+    
+    <!-- START headline -->
+    <div class="mc-h1">
+      <h1>产品比较</h1>
+    </div>
+    <!-- END headline --> 
+    
+    <!-- START 单栏布局 -->
+    <div class="mc-col1"> 
+      <!-- START 主要内容栏 -->
+      <div class="mc-main"> 
+        <!-- START 主要内容 -->
+        <div class="mod_product_compare_wrap"> 
+          <!-- START holderbar_top-->
+          <div class="holderbar_top"><a href="javascript:;" class="other_compare_list_hook"><span>其他用户还加入以下产品进行对比</span></a>
+           
+          </div>
+          <!-- END holderbar_top--> 
+          <!-- START mod_other_customer_compare_list_box 这部分数据由后台程序在页面初始化时写入-->
+          <div class="mod_other_customer_compare_list_box"> <a href="javascript:;" class="i14_close"></a>
+            <div class="mod_tit">
+              <h2>添加产品至比较</h2>
+            </div>
+            <div class="product_list_c5">
+              <div class="product_item" data-pid="0001">
+                <div class="pic"><a href="#"><img alt="" width="136" height="136" src="images/nf_tmp_refri01_136x136.png" /></a></div>
+                <div class="name"><a href="#">对开门649升酒红彩晶玻璃超大节能冰箱</a></div>
+                <div class="type">BCD-499WX</div>
+                <div class="compare"> <span class="i18_cb"><em></em></span> <span class="text">产品比较</span> <a class="abtn_pink_h36" href="javascript:;"><span>比较</span></a> </div>
+              </div>
+              <div class="product_item" data-pid="0002">
+                <div class="pic"><a href="#"><img alt="" width="136" height="136" src="images/nf_tmp_refri02_136x136.png" /></a></div>
+                <div class="name"><a href="#">对开门649升酒红彩晶玻璃超大节能冰箱</a></div>
+                <div class="type">2BCD-499WX</div>
+                <div class="compare"> <span class="i18_cb"><em></em></span> <span class="text">产品比较</span> <a class="abtn_pink_h36" href="javascript:;"><span>比较</span></a> </div>
+              </div>
+              <div class="product_item" data-pid="0003">
+                <div class="pic"><a href="#"><img alt="" width="136" height="136" src="images/nf_tmp_refri03_136x136.png" /></a></div>
+                <div class="name"><a href="#">对开门649升酒红彩晶玻璃超大节能冰箱</a></div>
+                <div class="type">3BCD-499WX</div>
+                <div class="compare"> <span class="i18_cb"><em></em></span> <span class="text">产品比较</span> <a class="abtn_pink_h36" href="javascript:;"><span>比较</span></a> </div>
+              </div>
+              <div class="product_item" data-pid="0004">
+                <div class="pic"><a href="#"><img alt="" width="136" height="136" src="images/nf_tmp_refri04_136x136.png" /></a></div>
+                <div class="name"><a href="#">对开门649升酒红彩晶玻璃超大节能冰箱</a></div>
+                <div class="type">4BCD-499WX</div>
+                <div class="compare"> <span class="i18_cb"><em></em></span> <span class="text">产品比较</span> <a class="abtn_pink_h36" href="javascript:;"><span>比较</span></a> </div>
+              </div>
+              <div class="product_item" data-pid="0005">
+                <div class="pic"><a href="#"><img alt="" width="136" height="136" src="images/nf_tmp_refri05_136x136.png" /></a></div>
+                <div class="name"><a href="#">对开门649升酒红彩晶玻璃超大节能冰箱</a></div>
+                <div class="type">BCD-649WADV</div>
+                <div class="compare"> <span class="i18_cb"><em></em></span> <span class="text">产品比较</span> <a class="abtn_pink_h36" href="javascript:;"><span>比较</span></a> </div>
+              </div>
+            </div>
+          </div>
+          <!-- END mod_other_customer_compare_list_box--> 
+          <!-- START mod_compare_holder_box-->
+          <div class="mod_compare_holder_box">
+            <div class="compare_tip">
+              <p><strong>您最多可以比较4款产品</strong><br />
+                没有满意的产品？也可以<a href="#" class="js_reset_cp_list">重新选择</a></p>
+              <div class="cp_filter">
+                <p><strong>对比设置</strong></p>
+                <ul>
+                  <li class="js_highlight_different_tr"><span class="i18_cb"><em></em></span><span class="text">高亮显示不同项</span></li>
+                  <li class="js_hide_same_tr"><span class="i18_cb"><em></em></span><span class="text">隐藏相同项</span></li>
+                </ul>
+              </div>
+            </div>
+            <!--START diy_compare_list -->
+            <div class="diy_compare_list"> 
+              <!--START compare_item1 -->
+              <div class="compare_item" data-pid=""> 
+                <!-- START initial box -->
+                <div class="init_box">
+                  <div class="init_pic"><span>等待添加产品</span></div>
+                  <a href="javascript:;" class="abtn_pink_h36 js_add_comp_pro"><span><em class="i18_add">添加产品</em></span></a> </div>
+                <!-- END initial box --> 
+                <!-- START compare_item_content_box -->
+                <div class="cpitem_cont_box"> <a class="i14_close" href="javascript:;"></a>
+                  <div class="go2left"><a href="javascript:;">&larr; 向左移</a></div>
+                  <div class="go2right"><a href="javascript:;">向右移 &rarr;</a></div>
+                  <div class="pic"><a href="#"><img alt="" width="136" height="136" src="" /></a></div>
+                  <div class="name"><a href="#"></a></div>
+                  <div class="type"></div>
+                  <div class="comments"><span class="i18_star"></span><span class="text">(<a href="#"></a>条)</span></div>
+                  <div class="price">￥<span></span></div>
+                </div>
+                <!-- END compare_item_content_box --> 
+              </div>
+              <!--END compare_item1 --> 
+              <!--START compare_item2 -->
+              <div class="compare_item" data-pid=""> 
+                <!-- START initial box -->
+                <div class="init_box">
+                  <div class="init_pic"><span>等待添加产品</span></div>
+                  <a href="javascript:;" class="abtn_pink_h36 js_add_comp_pro"><span><em class="i18_add">添加产品</em></span></a> </div>
+                <!-- END initial box --> 
+                <!-- START compare_item_content_box -->
+                <div class="cpitem_cont_box"> <a class="i14_close" href="javascript:;"></a>
+                  <div class="go2left"><a href="javascript:;">&larr; 向左移</a></div>
+                  <div class="go2right"><a href="javascript:;">向右移 &rarr;</a></div>
+                  <div class="pic"><a href="#"><img alt="" width="136" height="136" src="" /></a></div>
+                  <div class="name"><a href="#"></a></div>
+                  <div class="type"></div>
+                  <div class="comments"><span class="i18_star"></span><span class="text">(<a href="#"></a>条)</span></div>
+                  <div class="price">￥<span></span></div>
+                </div>
+                <!-- END compare_item_content_box --> 
+              </div>
+              <!--END compare_item2 --> 
+              <!--START compare_item3 -->
+              <div class="compare_item" data-pid=""> 
+                <!-- START initial box -->
+                <div class="init_box">
+                  <div class="init_pic"><span>等待添加产品</span></div>
+                  <a href="javascript:;" class="abtn_pink_h36 js_add_comp_pro"><span><em class="i18_add">添加产品</em></span></a> </div>
+                <!-- END initial box --> 
+                <!-- START compare_item_content_box -->
+                <div class="cpitem_cont_box"> <a class="i14_close" href="javascript:;"></a>
+                  <div class="go2left"><a href="javascript:;">&larr; 向左移</a></div>
+                  <div class="go2right"><a href="javascript:;">向右移 &rarr;</a></div>
+                  <div class="pic"><a href="#"><img alt="" width="136" height="136" src="" /></a></div>
+                  <div class="name"><a href="#"></a></div>
+                  <div class="type"></div>
+                  <div class="comments"><span class="i18_star i18_star5"></span><span class="text">(<a href="#"></a>条)</span></div>
+                  <div class="price">￥<span></span></div>
+                </div>
+                <!-- END compare_item_content_box --> 
+              </div>
+              <!--END compare_item3 --> 
+              <!--START compare_item4 -->
+              <div class="compare_item" data-pid=""> 
+                <!-- START initial box -->
+                <div class="init_box">
+                  <div class="init_pic"><span>等待添加产品</span></div>
+                  <a href="javascript:;" class="abtn_pink_h36 js_add_comp_pro"><span><em class="i18_add">添加产品</em></span></a> </div>
+                <!-- END initial box --> 
+                <!-- START compare_item_content_box -->
+                <div class="cpitem_cont_box"> <a class="i14_close" href="javascript:;"></a>
+                  <div class="go2left"><a href="javascript:;">&larr; 向左移</a></div>
+                  <div class="go2right"><a href="javascript:;">向右移 &rarr;</a></div>
+                  <div class="pic"><a href="#"><img alt="" width="136" height="136" src="" /></a></div>
+                  <div class="name"><a href="#"></a></div>
+                  <div class="type"></div>
+                  <div class="comments"><span class="i18_star"></span><span class="text">(<a href="#"></a>条)</span></div>
+                  <div class="price">￥<span></span></div>
+                </div>
+                <!-- END compare_item_content_box --> 
+              </div>
+              <!--END compare_item4 --> 
+            </div>
+            <!--END diy_compare_list --> 
+          </div>
+          <!-- START mod_compare_holder_box--> 
+          <!-- START product selector  -->
+          <div class="mod_product_selector"> <a href="javascript:;" class="i14_close"></a>
+            <div class="mod_tit">
+              <h2>添加产品至比较</h2>
+            </div>
+            <div class="cat1_box">
+              <h3>产品子类</h3>
+              <div class="list_container"> </div>
+            </div>
+            <div class="cat2_box">
+              <h3>产品型号/系列</h3>
+              <div class="list_container"> </div>
+            </div>
+            <div class="product_area">
+              <div class="select_tip" data-tit="您选择的产品已在比较列表中了！|最多只能比较4个产品！|由于网络原因或者产品ID有误，无法请求到数据。"></div>
+              <div class="pic"><img src="" alt=""/></div>
+              <div class="des">
+                <h3></h3>
+                <ul>
+                </ul>
+                <a href="javascript:;" class="abtn_pink_h36 js_btn_add"><span>加入比较</span></a> </div>
+              <div class="clf"></div>
+              <div class="doing_ajax_tip">正在与后台进行数据传输，请稍后再点击！</div>
+            </div>
+            <div class="clf"></div>
+          </div>
+          <!-- END product selector  --> 
+          <!-- START product property data -->
+          <div class="mod_cp_parameter_data js_accordion_v2">
+            <div class="ac_item js_ac_item">
+              <h3 class="ac_hd js_ac_hd"></h3>
+              <div class="ac_bd js_ac_bd">
+                <table>
+                  <colgroup>
+                  <col width="20%"/>
+                  <col width="20%"/>
+                  <col width="20%"/>
+                  <col width="20%"/>
+                  <col width="20%"/>
+                  </colgroup>
+                </table>
+              </div>
+            </div>
+          </div>
+          <!-- END product property data -->
+          <div class="mod_pbtn_warp">
+            <table>
+              <colgroup>
+              <col width="20%"/>
+              <col width="20%"/>
+              <col width="20%"/>
+              <col width="20%"/>
+              <col width="20%"/>
+              </colgroup>
+              <tr>
+                <th>&nbsp;</th>
+                <td><p><a class="abtn_pink_h36" href="#"><span>立即购买</span></a></p>
+                  <p><a href="javascript:;" class="nf_i25_addfavo js_add_collection">加入收藏</a></p></td>
+                <td><p><a class="abtn_pink_h36" href="#"><span>立即购买</span></a></p>
+                  <p><a href="javascript:;" class="nf_i25_addfavo js_add_collection">加入收藏</a></p></td>
+                <td><p><a class="abtn_pink_h36" href="#"><span>立即购买</span></a></p>
+                  <p><a href="javascript:;" class="nf_i25_addfavo js_add_collection">加入收藏</a></p></td>
+                <td><p><a class="abtn_pink_h36" href="#"><span>立即购买</span></a></p>
+                  <p><a href="javascript:;" class="nf_i25_addfavo js_add_collection">加入收藏</a></p></td>
+              </tr>
+            </table>
+          </div>
+          <div class="mod_copy_link_box">
+            <input  type="text" value="http://www.haier.com/cn/consumer/cooling/dkmbx/productCompare.shtml"/>
+            <a href="javascript:;" class="abtn_gray_h30 js_copy"><span>复制链接</span></a> <span class="text">发送链接给好友帮你挑选</span>
+            <div class="js_browser_support_tip browser_support_tip">您使用的是非IE核心浏览器，请按下 Ctrl+C 复制到剪贴板</div>
+            <div class="js_suc_tip suc_tip">已经成功复制到剪贴板</div>
+          </div>
+          <!-- START side -->
+          <div class="mod_side_hook">
+            <div class="side_hook_inner"> <a href="javascript:;" class="tit"></a>
+              <ul>
+              </ul>
+            </div>
+          </div>
+          <!-- END side --> 
+          <!-- START mod_simple_compare_holder-->
+          <div class="mod_simple_compare_holder">
+            <div class="compare_tip">
+              <div class="cp_filter">
+                <ul>
+                  <li class="js_highlight_different_tr"><span class="i18_cb"><em></em></span><span class="text">高亮显示不同项</span></li>
+                  <li class="js_hide_same_tr"><span class="i18_cb"><em></em></span><span class="text">隐藏相同项</span></li>
+                </ul>
+              </div>
+            </div>
+            <!--START diy_compare_list -->
+            <div class="diy_compare_list"> 
+              <!--START compare_item1 -->
+              <div class="compare_item" data-pid=""> 
+                <!-- START compare_item_content_box -->
+                <div class="cpitem_cont_box"> <a class="i14_close" href="javascript:;"></a>
+                  <div class="go2left"><a href="javascript:;">&larr; 向左移</a></div>
+                  <div class="go2right"><a href="javascript:;">向右移 &rarr;</a></div>
+                  <div class="name"><a href="#"></a></div>
+                </div>
+                <!-- END compare_item_content_box --> 
+              </div>
+              <!--END compare_item1 --> 
+              <!--START compare_item2 -->
+              <div class="compare_item" data-pid=""> 
+                <!-- START compare_item_content_box -->
+                <div class="cpitem_cont_box"> <a class="i14_close" href="javascript:;"></a>
+                  <div class="go2left"><a href="javascript:;">&larr; 向左移</a></div>
+                  <div class="go2right"><a href="javascript:;">向右移 &rarr;</a></div>
+                  <div class="name"><a href="#"></a></div>
+                </div>
+                <!-- END compare_item_content_box --> 
+              </div>
+              <!--END compare_item2 --> 
+              <!--START compare_item3 -->
+              <div class="compare_item" data-pid=""> 
+                <!-- START compare_item_content_box -->
+                <div class="cpitem_cont_box"> <a class="i14_close" href="javascript:;"></a>
+                  <div class="go2left"><a href="javascript:;">&larr; 向左移</a></div>
+                  <div class="go2right"><a href="javascript:;">向右移 &rarr;</a></div>
+                  <div class="name"><a href="#"></a></div>
+                </div>
+                <!-- END compare_item_content_box --> 
+              </div>
+              <!--END compare_item3 --> 
+              <!--START compare_item4 -->
+              <div class="compare_item" data-pid=""> 
+                <!-- START compare_item_content_box -->
+                <div class="cpitem_cont_box"> <a class="i14_close" href="javascript:;"></a>
+                  <div class="go2left"><a href="javascript:;">&larr; 向左移</a></div>
+                  <div class="go2right"><a href="javascript:;">向右移 &rarr;</a></div>
+                  <div class="name"><a href="#"></a></div>
+                </div>
+                <!-- END compare_item_content_box --> 
+              </div>
+              <!--END compare_item4 --> 
+            </div>
+            <!--END diy_compare_list --> 
+          </div>
+          <!-- END mod_simple_compare_holder--> 
+          <!-- START load error popup -->
+          <div class="pop_load_error">由于网络原因或者产品ID有误，数据请求出错！<a href="javascript:;" class="i14_close js_close">&nbsp;</a> </div>
+          <!-- END load error popup --> 
+        </div>
+        
+        <!-- END 主要内容 --> 
+      </div>
+      <!-- END 主要内容栏 --> 
+    </div>
+    <!-- END 单栏布局 --> 
+    
+  </div>
+  <!-- END main content --> 
+  
+  <!-- START footer --> 
+
+<script type="text/javascript" src="product_compare.js"></script> 
+<script type="text/javascript">
+//var _TRS_compare_products_from_user_pid_array = ['0003','0008','0005','0001','0002'];//用户选择的用于比较的产品产品id
+var _TRS_compare_products_from_user_pid_array = ['0001','0009'];//用户选择的用于比较的产品产品id
+//var product_compare_dataURL = "product_compare_data.json";//这个json文件地址是错误的，是为了与海尔的TRS那边的文件保持同步，这是他们定义的json文件地址。若要在本地看到效果，请将这行代码改为 var product_compare_dataURL = "ajax_data/nf_product_compare_data.json" echo update 20121129
+var product_compare_dataURL = "ajax_data/product_compare_data.json";
+
+</script> 
+<!-- END footer -->
+
+</body>
+</html>

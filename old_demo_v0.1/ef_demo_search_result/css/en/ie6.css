@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*================= boxs================== */
+.lack1_box_w896 .lack1_box_w896_top, .lack1_box_w896 .lack1_box_w896_bottom {
+  overflow:hidden;
+}
+.lack2_box_fullwidth .lack2_box_fullwidth_bottom {
+  overflow:hidden;
+}
+.lack1_box_size_m .lack1_box_size_m_top, .lack1_box_size_m .lack1_box_size_m_bottom {
+  overflow:hidden;
+}
+.ttbox_s .ttbox_top, .ttbox_s .ttbox_bottom {
+  overflow:hidden;
+}
+.ttbox_m .ttbox_top, .ttbox_m .ttbox_bottom {
+  overflow:hidden;
+}
+.bsbox_w200_top, .bsbox_w200_bottom {
+  overflow:hidden;
+}
+.wsp2box_w192_top, .wsp2box_w192_bottom {
+  overflow:hidden;
+}
+.mod_calendar .minicalendar thead tr th.previous a {
+  text-indent:0em;
+  font-size:0px;
+}
+
+.mod_calendar .minicalendar thead tr th.next a {
+
+  text-indent:0;
+  font-size:0px;
+}
+.go2top {
+	display:none;
+	width:0px;
+	height:0px;
+	overflow:hidden;
+}

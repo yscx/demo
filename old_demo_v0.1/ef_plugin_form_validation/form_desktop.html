@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>page title</title>
+<link rel="stylesheet" type="text/css" href="css/jquery_ui/jquery-ui-1.10.3.custom.css" />
+<link rel="stylesheet" type="text/css" href="css/form_desktop.css" />
+<script type="text/javascript" src="js/jquery-1.10.2.min.js" ></script>
+<script type="text/javascript" src="js/jquery.mousewheel.js" ></script>
+<script type="text/javascript" src="js/jquery-ui-1.10.3.custom.min.js" ></script>
+<script type="text/javascript" src="js/echo_jquery_fn_jsv_1.02.js" ></script>
+</head>
+<body>
+<div class="page_wrap">
+	<div class="mod_add_person_form_wrap">
+		<h1>Add a new person [using for desktop]</h1>		
+		<form class="jsv_form" action="">
+			<fieldset>
+				<legend>基本信息</legend>
+				<table class="form_table">
+					<colgroup>
+					<col width="100"/>
+					<col />
+					</colgroup>
+					<tr class="jsv_fe_wrap">
+						<td>姓名<span class="red">*</span></td>
+						<td><span class="label_input_wrap js_label_input">
+							<input type="text" name="name" autocomplete="on" class="input_text jsv_fe js_input" id="add_person_name" data-jsv-type="text" data-error-tip="请输入姓名"/>
+							<label for="add_person_name">请输入姓名</label>
+							</span>
+							<div class="error_tip jsv_error_tip"></div></td>							
+					</tr>
+					<tr class="jsv_fe_wrap">
+						<td>昵称<span class="red">*</span></td>
+						<td><span class="label_input_wrap js_label_input">
+							<input type="text" name="nickname" autocomplete="on" class="input_text jsv_fe js_input" id="add_person_nickname" data-jsv-type="text" data-error-tip="请输入昵称"/>
+							<label for="add_person_nickname">请输入昵称</label>
+							</span>
+							<div class="error_tip jsv_error_tip"></div></td>
+					</tr>
+					<tr>
+						<td>性别<span class="red">*</span></td>
+						<td><label>
+								<input type="radio" name="gender" value="1" data-jsv-type="radio" data-error-tip="请选择性别" checked/>
+								男</label>
+							&nbsp;
+							<label>
+								<input type="radio" name="gender" value="2" data-jsv-type="radio" data-error-tip="请选择性别"/>
+								女</label>
+							<div class="error_tip jsv_error_tip"></div></td>
+					</tr>
+					<tr class="jsv_fe_wrap">
+						<td>出生日期</td>
+						<td><input type="date" name="birthdate" autocomplete="on" class="input_text js_datepicker" id="add_person_birthdate" data-jsv-type="text" data-error-tip="请选择出生日期" readonly required/>
+							<div class="error_tip jsv_error_tip"></div></td>
+					</tr>
+					<tr class="jsv_fe_wrap">
+						<td>属相<span class="red">*</span></td>
+						<td><select name="zodiac" autocomplete="on" class="jsv_fe" data-jsv-type="select" data-error-tip="请选择属相" style="width:306px;">
+								<option value="" data-default-option="yes">请选择属相</option>
+								<option value="鼠">鼠</option>
+								<option value="牛">牛</option>
+								<option value="虎">虎</option>
+								<option value="兔">兔</option>
+								<option value="龙">龙</option>
+								<option value="蛇">蛇</option>
+								<option value="马">马</option>
+								<option value="羊">羊</option>
+								<option value="猴">猴</option>
+								<option value="鸡">鸡</option>
+								<option value="狗">狗</option>
+								<option value="猪">猪</option>
+							</select>
+							<div class="error_tip jsv_error_tip"></div></td>
+					</tr>
+				</table>
+			</fieldset>
+			<fieldset>
+				<legend>联系方式</legend>
+				<table class="form_table">
+					<colgroup>
+					<col width="100"/>
+					<col />
+					</colgroup>
+					<tr class="jsv_fe_wrap">
+						<td>Email<span class="red">*</span></td>
+						<td><span class="label_input_wrap js_label_input">
+							<input type="text" name="email" autocomplete="on" class="input_text js_input jsv_fe" id="add_person_email" data-jsv-type="email" data-error-tip="Email不能为空|请输入正确的Email地址"/>
+							<label for="add_person_email">例如：xxx@xxx.com</label>
+							</span>
+							<div class="error_tip jsv_error_tip"></div></td>
+					</tr>
+					<tr class="jsv_fe_wrap">
+						<td>手机号</td>
+						<td><span class="label_input_wrap js_label_input">
+							<input type="text" name="mobile" autocomplete="on" class="input_text js_input" id="add_person_mobile" data-jsv-type="mobile" data-error-tip="手机号不能为空|请输入正确的手机号"/>
+							<label for="add_person_mobile">例如:13800138000</label>
+							</span>
+							<div class="error_tip jsv_error_tip"></div></td>
+					</tr>
+					<tr class="jsv_fe_wrap">
+						<td>QQ号</td>
+						<td><span class="label_input_wrap js_label_input">
+							<input type="text" name="qq" autocomplete="on" class="input_text js_input" id="add_person_qq" data-jsv-type="number" data-error-tip="QQ号不能为空|请输入正确的QQ号"/>
+							<label for="add_person_qq">请输入QQ号</label>
+							</span>
+							<div class="error_tip jsv_error_tip"></div></td>
+					</tr>
+					<tr class="jsv_fe_wrap">
+						<td>工作单位</td>
+						<td><span class="label_input_wrap js_label_input">
+							<input type="text" name="company" autocomplete="on" class="input_text js_input" id="add_person_company" data-jsv-type="text" data-error-tip="请输入工作单位"/>
+							<label for="add_person_company">请输入工作单位</label>
+							</span>
+							<div class="error_tip jsv_error_tip"></div></td>
+					</tr>
+					<tr class="jsv_fe_wrap">
+						<td>住址</td>
+						<td><span class="label_input_wrap js_label_input">
+							<input type="text" name="address" autocomplete="on" class="input_text js_input" id="add_person_address" data-jsv-type="text" data-error-tip="请输入住址"/>
+							<label for="add_person_address">请输入住址</label>
+							</span>
+							<div class="error_tip jsv_error_tip"></div></td>
+					</tr>
+				</table>
+			</fieldset>
+			<fieldset>
+				<legend>其他信息</legend>
+				<table class="form_table">
+					<colgroup>
+					<col width="100"/>
+					<col />
+					</colgroup>
+					<tr class="jsv_fe_wrap">
+						<td>照片</td>
+						<td><input type="file" /></td>
+					</tr>
+					<tr class="jsv_fe_wrap">
+						<td>备注</td>
+						<td><span class="label_input_wrap js_label_input">
+							<textarea name="des" autocomplete="on" class="textarea js_input"  id="add_person_des" data-jsv-type="text" data-error-tip="请输入备注"></textarea>
+							<label for="add_person_des">请输入备注</label>
+							</span>
+							<div class="error_tip jsv_error_tip"></div></td>
+					</tr>
+				</table>
+			</fieldset>
+			<table class="form_table">
+				<colgroup>
+				<col width="100"/>
+				<col />
+				</colgroup>
+				<tr>
+					<td>&nbsp;</td>
+					<td><a href="javascript:;" class="abtn_green_30 js_submit">Submit</a></td>
+				</tr>
+			</table>
+		</form>
+	</div>
+	<script type="text/javascript">
+  jQuery(function(){
+	  
+	  var myDate = new Date();
+	  myDate.setFullYear(1900,1,1);
+	  
+	    var datepicker_default = {
+							monthNames: ['一月','二月','三月','四月','五月','六月','七月','八月','九月','十月','十一月','十二月'],
+							monthNamesShort: ['一月','二月','三月','四月','五月','六月','七月','八月','九月','十月','十一月','十二月'],
+							prevText : '上一月',
+							nextText : '下一月',
+							dayNames : ['日','一','二','三','四','五','六'],
+							dayNamesMin : ['日','一','二','三','四','五','六'],
+							dayNamesShort :  ['日','一','二','三','四','五','六'],
+							dateFormat : 'yy-mm-dd',
+							yearSuffix : '年',
+							'showMonthAfterYear':true,
+							changeYear:true,
+							changeMonth:true,
+							maxDate:0,
+							yearRange:'1900:2013'
+		};
+	  
+	    jQuery('.js_datepicker').datepicker(datepicker_default);
+		
+		
+	   jQuery('.jsv_form').each(function(){
+		  var $form = jQuery(this);
+		  var $btn_submit = $form.find('.js_submit');
+		  
+		  
+		  
+		  $form.find('.js_label_input').each(function(){			 
+			  jQuery(this).label_input();
+		  });
+		  
+		   $form.blur_validate();
+		  
+		  
+		  $btn_submit.click(function(){
+			 if($form.validate_form()){
+			     console.log('yes')
+			 }else{
+				 return false;
+			 } 
+		  });
+		  
+		   
+	   });  
+   })
+  
+  </script> 
+</div>
+</body>
+</html>

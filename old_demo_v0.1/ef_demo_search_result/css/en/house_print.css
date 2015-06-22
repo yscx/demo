@@ -1,0 +1,230 @@
+@charset "utf-8";
+/* CSS Document */
+
+html {
+  -webkit-text-size-adjust: none;
+}/* fix chrome 12px */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+}
+
+
+img {
+  vertical-align:bottom; /* IE6 img 3px bug fix */
+}
+body {
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  line-height: 1.5em;
+  -webkit-text-size-adjust:none; /* fix Chrome 12 px limit */
+  color:#888888;
+  position:relative;
+  background-color:#fdfdfd;
+}
+a {
+  text-decoration:none;
+  color:#897165;
+}
+a:hover {
+  color: #b28d7a;
+}
+ul, ol, dl {
+  list-style-image:none;
+  list-style-type:none;
+}
+ol {
+}
+ol li {
+  list-style-type:decimal;
+  list-style-position:inside;
+}
+p {
+  margin-bottom:10px;/* color:#666666;*/
+}
+h1, h2, h3, h4, h5, h6 {
+  font-weight:bold;
+  color: #80695e;
+  margin-bottom:0.5em;
+}
+h1 {
+  font-size:24px;
+  line-height:1.2em;
+  font-weight:bold;
+}
+h2 {
+  font-size:14px;
+  line-height:1.0em;
+  font-weight:bold;
+}
+h3 {
+  font-size:14px;
+}
+input {
+  vertical-align:middle;
+}
+input, textarea {
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:11px;
+  line-height:1.5em;
+  border:0px;
+  margin:0px;
+  padding:0px;
+  color:#888888;
+}
+select {
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:12px;
+  line-height:1.5em;
+  color:#0596d5;
+  width:135px;
+}
+
+.clearfix:after {
+	content:".";
+	display:block;
+	height:0;
+	visibility:hidden;
+	clear:both;
+}
+.clearfix {
+	display:block;
+}
+
+
+.wrap
+{
+	margin:0 auto;
+	width:600px;
+}
+
+.wrap .page-top
+{
+	margin:100px 0 0 0;
+}
+
+.page-top .page-top-txt
+{
+	float:left;
+}
+
+.page-top-txt .link-txt
+{
+	font-family:Arial, Helvetica, sans-serif;
+    font-size:14px;
+	color:#000000;
+	font-weight:bold;
+}
+
+.page-top-txt .link-msg
+{
+	font-family:Arial, Helvetica, sans-serif;
+    font-size:12px;
+	color:#000000;
+}
+
+.page-top .link-btn
+{
+	width:111px;
+	height:39px;
+	float:right;
+	padding:0 50px;
+}
+
+.link-btn a
+{
+	width:111px;
+	height:39px;
+	background:url(../../images/en/house_print.png) left center no-repeat;
+	display:block;
+}
+
+.wrap .page-content
+{
+	margin:60px 0 0 0;
+	width:600px;
+}
+
+.page-content .content-address .span1
+{
+	font-family:Arial, Helvetica, sans-serif;
+    font-size:16px;
+	color:#000000;
+	font-weight:bold;
+}
+
+.page-content .content-address .span2
+{
+	font-family:Arial, Helvetica, sans-serif;
+    font-size:14px;
+	color:#000000;
+	font-weight:bold;
+	padding:0 0 0 15px;
+}
+
+
+.page-content .content-txt
+{
+	font-family:Arial, Helvetica, sans-serif;
+    font-size:14px;
+	color:#000000;
+	padding:10px 0 0 0;
+}
+
+.wrap .footer
+{
+	margin:40px 0;
+	width:600px;
+}
+.footer .footer_item
+{
+	margin:20px 0;
+	width:600px;
+}
+
+.footer_item .span-left
+{
+	font-family:Arial, Helvetica, sans-serif;
+    font-size:16px;
+	color:#000000;
+	font-weight:bold;
+}
+
+.footer_item .span-right
+{
+	font-family:Arial, Helvetica, sans-serif;
+    font-size:16px;
+	color:#000000;
+	padding:0 0 0 265px;
+	font-weight:bold;
+}
+
+
+.footer .item_info
+{
+	margin:20px 0 0 0;
+	width:600px;
+}
+
+.item_info .info_left
+{
+	width:180px;
+	font-family:Arial, Helvetica, sans-serif;
+    font-size:14px;
+	color:#000000;
+	float:left;
+}
+
+.item_info .info_right
+{
+	width:300px;
+	font-family:Arial, Helvetica, sans-serif;
+    font-size:14px;
+	color:#000000;
+	float:right;
+	
+}
+
+

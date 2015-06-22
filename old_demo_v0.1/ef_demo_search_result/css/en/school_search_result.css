@@ -1,0 +1,455 @@
+@charset "utf-8";
+/* CSS Document */
+
+.mod_school_se_result_tpl_r201305 {
+	overflow:hidden;
+	zoom:1;
+	width:1000px;
+	margin:0 auto;
+}
+/*顶部结果提示区*/
+.mod_school_se_result_tpl_r201305 .mod_result_tip {
+	border-color: #D7D0CA #F5F5F5 #E4E4E4;
+	border-style: solid;
+	border-width: 1px;
+	padding: 10px;
+	box-shadow:1px 1px 1px #eaeaea;
+	-moz-box-shadow:1px 1px 1px #eaeaea;
+	-o-box-shadow:1px 1px 1px #eaeaea;
+	-webkit-box-shadow:1px 1px 1px #eaeaea;
+}
+.mod_school_se_result_tpl_r201305 .mod_result_tip .tip_text {
+}
+.mod_school_se_result_tpl_r201305 .mod_result_tip .tip_text em {
+	color:#26a0d5;
+	font-size:14px;
+	font-weight:bold;
+	font-style:normal;
+}
+.mod_school_se_result_tpl_r201305 .mod_result_tip .view_mode_switch {
+	float:right;
+	display:inline;
+	text-align:right;
+}
+.mod_school_se_result_tpl_r201305 .mod_result_tip .view_mode_switch a {
+	display:inline-block;
+	border-width:1px;
+	border-style:solid;
+	border-color:#b1a49e;
+	height:23px;
+	line-height:23px;
+	margin:0;
+}
+.mod_school_se_result_tpl_r201305 .mod_result_tip .view_mode_switch a.first {
+	border-right:none;
+}
+.mod_school_se_result_tpl_r201305 .mod_result_tip .view_mode_switch a span {
+	display:inline-block;
+	height:23px;
+	line-height:23px;
+	background:url(../../images/en/school_search_view_mode_switch_bg.png) left bottom repeat-x;
+	padding-left:1em;
+	padding-right:1em;
+	cursor:pointer;
+}
+.mod_school_se_result_tpl_r201305 .mod_result_tip .view_mode_switch a.active {
+	border-color:#bbbbbb;
+	cursor:default;
+}
+.mod_school_se_result_tpl_r201305 .mod_result_tip .view_mode_switch a.active span {
+	background:url(../../images/en/school_search_view_mode_switch_bg_active.png) left bottom repeat-x;
+	color:#bbbbbb;
+	cursor:default;
+}
+/* 左侧筛选器 */
+.mod_school_se_result_tpl_r201305 .mod_school_filter {
+	border: 1px solid #D5CDC9;
+	padding: 8px;
+	width:182px;
+	float:left;
+	display:inline;
+	margin-right:18px;
+}
+.mod_school_se_result_tpl_r201305 .mod_school_filter h2 {
+	border-bottom:1px solid #D5CDC9;
+	padding-bottom:10px;
+	margin-bottom:10px;
+}
+.mod_school_se_result_tpl_r201305 .mod_school_filter .option_list li {
+	margin-bottom:8px;
+}
+.mod_school_se_result_tpl_r201305 .mod_school_filter .option_list li label {
+}
+.mod_school_se_result_tpl_r201305 .mod_school_filter .option_list li label input {
+	margin-right:7px;
+}
+.mod_school_se_result_tpl_r201305 .mod_school_filter .option_list li .op_num {
+	display:inline-block;
+	padding-left:5px;
+	background:url(../../images/en/i14_num_bg_brown.png) left top no-repeat;
+	height:14px;
+	line-height:14px;
+	margin-left:5px;
+}
+.mod_school_se_result_tpl_r201305 .mod_school_filter .option_list li .op_num em {
+	color:#fff;
+	display:inline-block;
+	padding-right:5px;
+	background:url(../../images/en/i14_num_bg_brown.png) right -20px no-repeat;
+	height:14px;
+	line-height:14px;
+	font-style:normal;
+}
+/* 右侧结果显示区 */
+.mod_school_se_result_tpl_r201305 .mod_result_area {
+	width:678px;
+	float:left;
+	display:inline;
+  padding-bottom:20px;
+}
+.mod_school_se_result_tpl_r201305 .mod_result_area .t_hd {
+	height:39px;
+	background:url(../../images/en/bg_gradient_brown_h39.png) left bottom repeat-x;
+	position:relative;
+}
+.mod_school_se_result_tpl_r201305 .mod_result_area .t_hd .info_table th {
+	height:39px;
+}
+.mod_school_se_result_tpl_r201305 .mod_result_area .info_table {
+}
+.mod_school_se_result_tpl_r201305 .mod_result_area .t_hd .info_table .c1 {
+	width:44%;
+}
+.mod_school_se_result_tpl_r201305 .mod_result_area .t_bd .info_table .c1 {
+	width:44%;
+}
+/*4列均显示的情况*/
+.list_ex_4c .c2 {
+	width:16%;
+}
+.list_ex_4c .c3 {
+	width:16%;
+}
+.list_ex_4c .c4 {
+	width:16%;
+}
+.list_ex_4c .c5 {
+	width:16%;
+}
+/*只显示3列的情况*/
+.list_ex_3c .c2 {
+	width:19%;
+}
+.list_ex_3c .c3 {
+	width:19%;
+}
+.list_ex_3c .c4 {
+	width:19%;
+}
+
+/*只显示2列的情况*/
+.list_ex_2c .c2 {
+	width:28%;
+}
+.list_ex_2c .c3 {
+	width:28%;
+}
+/*只显示1列的情况*/
+.list_ex_1c .c2 {
+	width:56%;
+}
+
+/* 表头部分 */
+.mod_school_se_result_tpl_r201305 .mod_result_area .info_table td, .mod_school_se_result_tpl_r201305 .mod_result_area .info_table th {
+	text-align:center;
+	vertical-align:middle;
+	border-spacing:0;
+}
+.mod_school_se_result_tpl_r201305 .mod_result_area .t_hd .info_table th {
+	color:#fff;
+}
+.mod_school_se_result_tpl_r201305 .mod_result_area .t_hd .info_table th.first .cell {
+	text-indent:15px;
+}
+.mod_school_se_result_tpl_r201305 .mod_result_area .info_table th.first, .mod_school_se_result_tpl_r201305 .mod_result_area .info_table td.first {
+	text-align:left;
+}
+.mod_school_se_result_tpl_r201305 .mod_result_area .t_hd .info_table th .cell {
+	border-left:1px solid #9f8a80;
+	border-right:1px solid #654e42;
+	padding-top:8px;
+	padding-bottom:8px;
+	height:18px;
+	overflow:hidden;
+}
+.mod_school_se_result_tpl_r201305 .mod_result_area .t_bd td.pcell {
+	padding-top:10px;
+	padding-bottom:10px;
+}
+.mod_school_se_result_tpl_r201305 .mod_result_area .t_hd .info_table th.last .cell {
+	border-right:none;
+}
+/* 表身部分 */
+.mod_school_se_result_tpl_r201305 .mod_result_area .t_bd .info_table td.pcell {
+	border-bottom:1px solid #e2dcd9;
+}
+.mod_school_se_result_tpl_r201305 .mod_result_area .t_bd .info_table td .pcell_inner {
+	border-right:1px solid #e2dcd9;
+	height:100%;
+}
+.mod_school_se_result_tpl_r201305 .mod_result_area .t_bd .info_table td.last .pcell_inner {
+	border-right:none;
+}
+.mod_school_se_result_tpl_r201305 .mod_result_area .t_bd .s_price {
+	font-size:15px;
+	font-weight:bold;
+	color:#26a0d5;
+}
+.mod_school_se_result_tpl_r201305 .mod_result_area .t_bd .s_tit a {
+	font-size:18px;
+	color:#d32e69;
+}
+.mod_school_se_result_tpl_r201305 .mod_result_area .t_bd .s_price em {
+	font-style:normal;
+}
+.mod_school_se_result_tpl_r201305 .mod_result_area .t_bd .pcell .s_price_blank {
+	color:#26a0d5;
+	font-weight:bold;
+}
+.mod_school_se_result_tpl_r201305 .mod_result_area .t_bd td.first .pcell_inner .icon_location_l {
+	padding-left:17px;
+	color:#888888;
+}
+.mod_school_se_result_tpl_r201305 .mod_result_area .t_bd .pcell_inner {
+	padding-left:10px;
+	padding-right:10px;
+}
+.mod_school_se_result_tpl_r201305 .mod_result_area .t_bd td.first .pcell_inner {
+	padding-left:4px;
+}
+/*地图模式观看*/
+
+/*locator列表*/
+.view_mode_map_area {
+	height:542px;
+	border:1px solid #e9e5e3;
+	background-color:#fff;
+	padding:9px;
+	position:relative;
+	overflow:hidden;
+}
+.view_mode_map_area .locator_list_wrap {
+	position:absolute;
+	top:0px;
+	/*left:-232px;*/
+  left:0px;
+	width:232px;
+	height:540px;
+	background-color:#f7f7f7;
+	background-image:url(../../images/en/shadow_bg_w4.png);
+	background-position:right top;
+	background-repeat:repeat-y;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+.view_mode_map_area .locator_list_wrap .scroll_area{
+	height:540px;
+	width:228px;
+	position:absolute;
+	left:0;
+	top:10px;
+	z-index:11;
+	overflow:auto;
+	
+}
+
+.view_mode_map_area .locator_list_wrap .scroll_handler{
+	position:absolute;
+	width:7px;
+	height:540px;
+	top:10px;
+	left:214px;
+	z-index:12;
+  display:none;
+
+	
+	
+}
+.view_mode_map_area .locator_list_wrap .scroll_handler .scroll_bar {
+	width:7px;
+	height:425px;
+	left:0px;
+	top:0px;
+	position:absolute;	
+	border:none;
+	background:none;
+		background-color:#e9e9e9;
+}
+.view_mode_map_area .locator_list_wrap .scroll_handler .scroll_bar .ui-slider-handle{
+    background:#199bd3;
+    border: medium none;
+    border-radius: 0 0 0 0;
+    display: inline-block;
+    height: 115px;
+    left: 0px;
+    margin-bottom: -115px;
+    opacity: 1.0;
+    width: 7px;
+}
+	
+
+.view_mode_map_area .locator_list_wrap .list_switch {
+	position:absolute;
+	width:33px;
+	height:110px;
+	top:50%;
+	margin-top:-55px;
+	right:-33px;
+}
+.view_mode_map_area .locator_list_wrap .list_switch a {
+	display:block;
+	width:33px;
+	height:110px;
+	background-image:url(../../images/en/view_mode_switch_bg.png);
+	background-repeat:no-repeat;
+	background-position:left top;
+}
+.view_mode_map_area .locator_list_wrap .list_switch a.active {
+	background-position:left -200px;
+}
+
+.view_mode_map_area .locator_list_wrap .locator_list{
+		width:210px;
+}
+.view_mode_map_area .locator_list_wrap .locator_list .locator_item{
+	padding-left:10px;
+	margin-bottom:8px;
+	min-height:50px;
+}
+.view_mode_map_area .locator_list_wrap .locator_list .locator_item .item_inner{
+		padding-left:38px;
+		padding-top:6px;
+		padding-right:15px;
+		padding-bottom:6px;
+		position:relative;
+    min-height:38px;
+}
+
+.view_mode_map_area .locator_list_wrap .locator_list .active .item_inner{
+	background-color:#fff;
+}
+
+.view_mode_map_area .locator_list_wrap .locator_list .locator_item .num{
+	position:absolute;
+	left:0px;
+	top:6px;
+	display:block;
+	background-image:url(../../images/en/map_marker_bg.png);
+	background-position:center top;
+	background-repeat:no-repeat;
+	text-align:center;	
+	width:30px;
+	height:42px;
+	line-height:20px;
+	color:#26a0d5;
+	font-weight:bold;
+	font-size:11px;
+	padding-top:5px;
+}
+
+.view_mode_map_area .locator_list_wrap .locator_list .locator_item .des{
+	
+}
+.view_mode_map_area .locator_list_wrap .locator_list .locator_item .item_inner{
+	
+}
+.view_mode_map_area .locator_list_wrap .locator_list .item_inner .des .tit{
+	font-size:14px;
+	color:#d32e69;
+	line-height:18px;
+	margin-bottom:5px;
+}
+
+.view_mode_map_area .locator_list_wrap .locator_list .active .item_inner .des .tit{
+	color:#d32e69;
+}
+
+.view_mode_map_area .locator_list_wrap .locator_list .item_inner .des .addr{
+	line-height:16px;
+	
+}
+/*地图区域*/
+.view_mode_map_area .map_area_wrap{
+	/*width:658px;*/
+  width:435px;
+	height:542px;
+	background-color:#FFCC66;
+	float:right;
+}
+
+.view_mode_map_area .map_area_wrap .map_area{
+	width:100%;
+  height:100%;
+}
+/*右侧bubble*/
+.mod_result_area .bubble_right {
+	background:transparent url(../../images/en/search_result_bubble_right.png) 0 0 no-repeat;
+	width:109px;
+	height:46px;
+	position:fixed;
+	top:316px;
+	text-indent:-200px;
+	overflow:hidden;
+	margin-left:670px;
+}
+/* blue_bb1_box */
+.blue_bb1_box{
+  position:fixed;
+  bottom:40px;
+  width:666px;
+  z-index:999;
+}
+
+
+.blue_bb1_box .i18_excl_l{
+  padding-right:25px;
+}
+.blue_bb1_box .btn_close_blue_bubble{
+  position:absolute;
+  background-image:url(../../images/en/icon_close.png);
+  width:15px;
+  height:0;
+  overflow:hidden;
+  padding-top:15px;
+  display:block;
+  right:5px;
+  top:5px;
+}
+
+.view_mode_list_area{
+  position:relative;
+}
+
+
+.list_loading{
+  background-image:url(../../images/en/loading.gif);
+  width:48px;
+  height:48px;
+  position:absolute;
+  left:50%;
+  margin-left:-24px;
+  top:100px;
+  display:none;
+}
+
+.result_empty{   
+  display:none;
+  color:#f00;
+  font-size: 12px;
+  line-height: 1.8;
+  padding: 10px;
+}
+
+.icon_location_l{
+  color:#80695E;
+}

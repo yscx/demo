@@ -1,0 +1,1979 @@
+@charset "utf-8";
+/* CSS Document */
+/*====================pagination====================*/
+.mod_pagination {
+}
+.mod_pagination {
+	text-align:right;
+}
+.mod_pagination a.page_prev {
+	display:inline-block;
+	background:url(../../images/en/arr_duble_left_pink.png) left center no-repeat;
+	padding-left:12px;
+	color:#d32e69;
+}
+.mod_pagination a.page_prev:hover {
+	display:inline-block;
+	background:url(../../images/en/arr_duble_left_pink_hover.png) left center no-repeat;
+	padding-left:12px;
+	color:#fd4587;
+}
+.mod_pagination a.page_next {
+	display:inline-block;
+	background:url(../../images/en/arr_duble_right_pink.png) right center no-repeat;
+	padding-right:12px;
+	color:#d32e69;
+}
+.mod_pagination a.page_next:hover {
+	display:inline-block;
+	background:url(../../images/en/arr_duble_right_pink_hover.png) right center no-repeat;
+	padding-right:12px;
+	color:#fd4587;
+}
+.mod_pagination select {
+	color:#8e796e;
+}
+/* =======================================================homepage elements============================================= */  
+/* mod_bloackboard */
+.mod_blackboard {
+	width:1010px;
+	height:408px;
+	margin:0px auto;
+	background:url(../../images/en/mod_hp_blackboard_bg.png) left top no-repeat;
+	position:absolute;
+	top:-32px;
+	color:#fff;
+	z-index:10;
+}
+.mod_blackboard_cont {
+	position:absolute;
+	top:62px;
+	left:94px;
+	z-index:10;
+}
+.mod_blackboard h2 {
+	color:#fff;
+	font-size:35px;
+	width:400px;
+}
+.mod_blackboard .des {
+	font-size:15px;
+	line-height:1.5em;
+	text-shadow:1px 1px 1px #333333;
+	width:470px;
+}
+.mod_blackboard .city_sketch {
+	position:absolute;
+	bottom:41px;
+	left:400px;
+	z-index:9;
+}
+.mod_blackboard .linkbar {
+	margin-top:10px;
+}
+.mod_blackboard .arr_round_brown {
+	color:#e5dbcc;
+	text-shadow:1px 1px 1px #333333;
+	margin-right:10px;
+}
+.mod_blackboard .arr_round_brown:hover {
+	color:#fdcf89;
+}
+/* END .mod_blackboard */
+.hp_wrap .hp_cont .hp_cont_main {
+	padding-top:376px;
+	float:left;
+	display:inline;
+	margin-left:36px;
+	width:612px;
+}
+.hp_wrap .hp_cont .hp_cont_sub {
+	position:relative;
+	float:left;
+	z-index:20;
+	padding-left:16px;
+	padding-right:9px;
+	width:293px;
+	overflow:hidden;
+}
+.hp_wrap .hp_cont .hp_cont_sub p {
+	font-family:Arial, Helvetica, sans-serif;
+}
+.hp_wrap .hp_cont .hp_cont_sub .nail_plate_box {
+	margin-left:-16px;
+	margin-right:-9px;
+}
+/* START .mod_school_focus */
+.mod_school_focus {
+	background:url(../../images/en/mod_school_focus_bg.png) center 25px no-repeat;
+	height:227px;
+	width:615px;
+	margin-bottom:15px;
+}
+.mod_school_focus h2 {
+	background:url(../../images/en/icon_school.png) left center no-repeat;
+	padding-left:30px;
+	margin-bottom:0px;
+}
+/* keyword_tags */
+.mod_school_focus .keyword_tags {
+	width:100px;
+	float:left;
+	margin-right:20px;
+	padding-top:15px;
+}
+.mod_school_focus .keyword_tags ul {
+}
+.mod_school_focus .keyword_tags ul li {
+	height:30px;
+	width:100%;
+}
+.mod_school_focus .keyword_tags ul li a {
+	display:block;
+	height:0px;
+	padding-top:30px;
+	overflow:hidden;
+	width:100%;
+	background-image:url(../../images/en/hp_school_focus_tab_bg.png);
+	background-repeat:no-repeat;
+}
+.mod_school_focus .keyword_tags a.tag1 {
+	background-position:left top;
+}
+.mod_school_focus .keyword_tags a.tag2 {
+	background-position:left -50px;
+}
+.mod_school_focus .keyword_tags a.tag3 {
+	background-position:left -100px;
+}
+.mod_school_focus .keyword_tags a.tag4 {
+	background-position:left -150px;
+}
+.mod_school_focus .keyword_tags a.tag5 {
+	background-position:left -200px;
+}
+.mod_school_focus .keyword_tags a.tag1:hover, .mod_school_focus .keyword_tags li.active a.tag1 {
+	background-position:-200px top;
+}
+.mod_school_focus .keyword_tags a.tag2:hover, .mod_school_focus .keyword_tags li.active a.tag2 {
+	background-position:-200px -50px;
+}
+.mod_school_focus .keyword_tags a.tag3:hover, .mod_school_focus .keyword_tags li.active a.tag3 {
+	background-position:-200px -100px;
+}
+.mod_school_focus .keyword_tags a.tag4:hover, .mod_school_focus .keyword_tags li.active a.tag4 {
+	background-position:-200px -150px;
+}
+.mod_school_focus .keyword_tags a.tag5:hover, .mod_school_focus .keyword_tags li.active a.tag5 {
+	background-position:-200px -200px;
+}
+/* keyword_cont */
+
+.keyword_cont {
+	width:495px;
+	float:left;
+	position:relative;
+}
+.keyword_cont .keyword_cont_pannel img {
+	position:absolute;
+	top:10px;
+	right:20px;
+	z-index:9;
+}
+.keyword_cont .keyword_cont_pannel .nail {
+	display:block;
+	width:66px;
+	height:59px;
+	position:absolute;
+	top:2px;
+	right:113px;
+	background:url(../../images/en/nail_blue.png) left top no-repeat;
+	z-index:10;
+}
+.keyword_cont .keyword_cont_pannel {
+	padding-right:230px;
+	padding-top:14px;
+}
+.keyword_cont .keyword_cont_pannel p {
+	font-size:14px;
+	line-height:25px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+/* END .mod_school_focus */
+/* START mod_education_blog */
+.mod_education_blog {
+	background:url(../../images/en/bg_bottom_stack_horizontal_graidient.png) center bottom no-repeat;
+	padding-bottom:20px;
+	overflow:hidden;
+	zoom:1;
+}
+.mod_education_blog .pic {
+	float:left;
+	display:inline;
+	width:165px;
+	height:94px;
+	background:url(../../images/en/picbox_bg_for_w165h94.png) left top no-repeat;
+	padding-left:9px;
+	padding-right:9px;
+	padding-top:9px;
+	padding-bottom:12px;
+	margin-right:10px;
+	overflow:hidden;
+}
+.mod_education_blog .right {
+	width:419px;
+	float:left;
+	display:inline;
+}
+.mod_education_blog .right h3 {
+	margin-bottom:0px;
+}
+.mod_education_blog .right h3 a {
+	font-size:16px;
+	font-weight:bold;
+	color:#d32e69;
+}
+.mod_education_blog .right h3 a:hover {
+	color:#fd4587;
+}
+.mod_education_blog .right .hint {
+	font-size:11px;
+	color:#a0a0a0;
+	margin-bottom:5px;
+	line-height:14px;
+}
+.mod_education_blog .right .des {
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:14px;
+	line-height:18px;
+	color:#666666;
+	margin-bottom:10px;
+}
+/* END mod_education_blog */
+/* START mod_living_in_this_city */
+.mod_living_in_this_city {
+	overflow:hidden;
+	zoom:1;
+}
+.mod_living_in_this_city .pic {
+	float:left;
+	display:inline;
+	width:165px;
+	height:94px;
+	background:url(../../images/en/picbox_bg_for_w165h94.png) left top no-repeat;
+	padding-left:9px;
+	padding-right:9px;
+	padding-top:9px;
+	padding-bottom:12px;
+	margin-right:10px;
+}
+.mod_living_in_this_city .right {
+	width:419px;
+	float:left;
+	display:inline;
+}
+.mod_living_in_this_city .right h3 a {
+	font-size:16px;
+	color:#d32e69;
+}
+.mod_living_in_this_city .right h3 a:hover {
+	color:#fd4587;
+}
+.mod_living_in_this_city .right .des {
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:14px;
+	line-height:18px;
+	color:#666666;
+	margin-bottom:10px;
+}
+.mod_living_in_this_city ul.list_arr_thin_pink {
+	overflow:hidden;
+	zoom:1;
+}
+.mod_living_in_this_city ul.list_arr_thin_pink li {
+	float:left;
+	display:inline;
+	width:160px;
+}
+/* END mod_living_in_this_city */
+/* nail_plate_box */
+.nail_plate_box {
+	width:314px;
+	overflow:hidden;
+}
+.nail_plate_box .npbox_top {
+	height:41px;
+	overflow:hidden;
+	background:url(../../images/en/nail_plate_box_bg_top.png) center top no-repeat;
+}
+.nail_plate_box .npbox_bottom {
+	height:15px;
+	overflow:hidden;
+	background:url(../../images/en/nail_plate_box_bg_bottom.png) center bottom no-repeat;
+}
+.nail_plate_box .npbox_mid {
+	min-height:512px;
+	overflow:hidden;
+	background:url(../../images/en/nail_plate_box_bg_repeat.png) center top no-repeat;
+	padding-left:26px;
+	padding-right:18px;
+}
+/* mod_school_news */
+
+.mod_school_news {
+	background:url(../../images/en/mod_school_news_bg.png) center top no-repeat;
+	padding-left:10px;
+	padding-right:10px;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+.mod_school_news h2 {
+	border-bottom:1px solid #e5dbcc;
+	padding-bottom:3px;
+	margin-bottom:15px;
+}
+.mod_school_news .btn_prev a, .mod_school_news .btn_next a {
+	display:block;
+	background-image:url(../../images/en/btn_arr_round_pink.png);
+	background-repeat:no-repeat;
+	width:33px;
+	height:33px;
+	position:absolute;
+	top:55px;
+}
+.mod_school_news .btn_prev a {
+	left:-15px;
+	background-position:left top;
+}
+.mod_school_news .btn_prev a.disabled {
+	display:none;
+}
+.mod_school_news .btn_next a {
+	right:-15px;
+	background-position:-33px top;
+}
+.mod_school_news .btn_next a.disabled {
+	display:none;
+}
+.mod_school_news .stage_wrap {
+	position:relative;
+	width:224px;
+	margin:0 auto;
+}
+.mod_school_news .stage {
+	width:224px;
+	margin:0 auto;
+	overflow:hidden;
+	position:relative;
+	height:215px;
+}
+.mod_school_news .stage .news_list {
+	width:9999px;
+	position:absolute;
+	left:0px;
+	top:0px;
+	height:245px;
+}
+.mod_school_news .stage .news_list .news_item {
+	float:left;
+	width:224px;
+	display:inline;
+	height:100%;
+	overflow:hidden;
+}
+.mod_school_news .stage .news_list .news_item .pic {
+	width:224px;
+	height:138px;
+	overflow:hidden;
+}
+.mod_school_news .stage .news_list .news_item .des {
+	width:224px;
+	height:36px;
+	text-overflow:ellipsis;
+	overflow:hidden;
+}
+.mod_school_news .stage .news_list .news_item h3 {
+	margin-top:10px;
+}
+.mod_school_news .stage .news_list .news_item h3 a {
+	color: #D32E69;
+	font-size:12px;
+	line-height:14px;
+}
+.mod_school_news .stage .news_list .news_item h3 a:hover {
+	color: #fd4587;
+}
+/* START mod_upcoming_events */
+.mod_upcoming_events {
+	background:url(../../images/en/mod_upcoming_events_bg.png) center bottom no-repeat;
+	padding-left:10px;
+	padding-right:10px;
+	padding-bottom:10px;
+	padding-top:10px;
+}
+.mod_upcoming_events h2 {
+	border-bottom:1px solid #e5dbcc;
+	padding-bottom:3px;
+	margin-bottom:15px;
+}
+.mod_upcoming_events ul.event_list, .mod_upcoming_events .linkbar {
+	width:241px;
+	margin:0 auto;
+}
+.mod_upcoming_events ul.event_list li {
+	position:relative;
+	padding-left:37px;
+	background:url(../../images/en/line_dot.png) left bottom repeat-x;
+	padding-bottom:6px;
+	margin-bottom:5px;
+	overflow:hidden;
+	zoom:1;
+}
+.mod_upcoming_events ul.event_list li.last {
+	background:none;
+}
+.mod_upcoming_events ul.event_list li .date, .mod_upcoming_events ul.event_list li .month {
+	position:absolute;
+	left:0px;
+	text-align:center;
+	display:block;
+	color:#d32e69;
+	width:32px;
+	background-image:url(../../images/en/event_list_date_bg.png);
+	background-repeat:no-repeat;
+}
+.mod_upcoming_events ul.event_list li .month {
+	top:0px;
+	line-height:12px;
+	height:12px;
+	font-size:10px;
+	background-position:left top;
+}
+.mod_upcoming_events ul.event_list li .date {
+	top:13px;
+	line-height:18px;
+	height:20px;
+	font-size:16px;
+	background-position:left -13px;
+	font-weight:bold;
+}
+.mod_upcoming_events ul.event_list li .e_tit a {
+	color:#d32e69;
+	font-weight:bold;
+}
+.mod_upcoming_events ul.event_list li .e_tit a:hover {
+	color:#fd4587;
+}
+.mod_upcoming_events ul.event_list li .e_tit {
+	float:left;
+	display:inline;
+	width:204px;
+}
+.mod_upcoming_events ul.event_list li .e_des {
+	float:left;
+	display:inline;
+	width:204px;
+}
+/* END mod_upcoming_events */
+/*=============================================END Homepage elements=============================*/
+/* =========================================Keypages elements=========================================================*/
+/* mod_cs_service_list T2:小区服务列表*/
+.mod_cs_service_list {
+	width:620px;
+	overflow:hidden;
+	margin:0 auto;
+
+}
+.mod_cs_service_list .col_3_wrap{
+	overflow:hidden;
+	zoom:1;
+	width:657px;
+	margin-left:-18px;
+}
+.mod_cs_service_list .col_3_wrap .service_item {
+	width:182px;
+	float:left;
+	display:inline;
+	padding-left:18px;
+	padding-right:18px;
+	border-right:1px solid #ebe7e4;
+	border-bottom:1px solid #d7d0ca;
+	height:325px;
+	overflow:hidden;
+	padding-top:18px;
+}
+/*
+.mod_cs_service_list .service_item1 {
+	padding-left:0px;
+}
+.mod_cs_service_list .service_item3 {
+	padding-right:0px;
+	border-right:none;
+}
+.mod_cs_service_list .service_item4 {
+	padding-left:0px;
+	border-bottom:none;
+	padding-top:19px;
+}
+.mod_cs_service_list .service_item5 {
+	border-bottom:none;
+	padding-top:19px;
+}
+.mod_cs_service_list .service_item6 {
+	padding-right:0px;
+	border-right:none;
+	border-bottom:none;
+	padding-top:19px;
+}
+*/
+.mod_cs_service_list .service_item p {
+	font-size:14px;
+	line-height:18px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+}
+.mod_cs_service_list .service_item h2 {
+	height:30px;
+	line-height:30px;
+	margin-bottom:0px;
+}
+.mod_cs_service_list .service_item h2 a{
+		line-height:30px;
+		display:inline-block;
+	}
+.mod_cs_service_list .service_item h2 span {
+	line-height:30px;
+}
+/* mod_what_around Teaser*/
+.mod_what_around {
+}
+.mod_what_around ul {
+	overflow:hidden;
+	zoom:1;
+}
+.mod_what_around ul li {
+	width:50%;
+	float:left;
+	display:inline;
+	margin-bottom:5px;
+}
+.mod_what_around ul li a {
+	text-decoration:underline;
+}
+/*mod_district_category_search T3*/
+.mod_district_category_search {
+	width:630px;
+	padding-left:20px;
+	padding-right:23px;
+	padding-top:12px;
+	padding-bottom:12px;
+	height:20px;
+	margin:0 auto;
+	background:url(../../images/en/mod_district_category_search_box_bg.png) left top no-repeat;
+	margin-bottom:20px;
+}
+/*.mod_district_service_list T3*/
+.mod_district_service_list {
+}
+.mod_district_service_list .district_service_item {
+	overflow:hidden;
+	zoom:1;
+	background-color:#fff;
+	border-top:1px solid #fdfbf9;
+	border-bottom:1px solid #f0f0f0;
+	border-right:1px solid #f0f0f0;
+	padding-top:15px;
+	padding-bottom:15px;
+	padding-left:15px;
+	padding-right:10px;
+	margin-bottom:10px;
+}
+.mod_district_service_list .district_service_item .pic {
+	width:180px;
+	height:100%;
+	float:left;
+	display:inline;
+	margin-right:20px;
+}
+.mod_district_service_list .district_service_item .des {
+	float:left;
+	display:inline;
+	width:452px;
+}
+.mod_district_service_list .district_service_item .des h2 {
+	height:20px;
+	line-height:20px;
+}
+.mod_district_service_list .district_service_item .des p {
+	font-size:14px;
+	line-height:18px;
+	color: #666666;
+	font-family:Georgia, "Times New Roman", Times, serif;
+}
+.mod_district_service_list .district_service_item .linkbar {
+}
+.mod_district_service_list .district_service_item .linkbar span span {
+	margin-right:5px;
+}
+.mod_district_service_list .district_service_item .linkbar span a {
+	color:#d32e69;
+}
+.mod_district_service_list .district_service_item .linkbar span a:hover {
+	color:#fd4587;
+}
+/* T4 housing detail:  */
+.mod_housing_detail_shotcut {
+	overflow:hidden;
+	zoom:1;
+	border-bottom:1px solid #e2dcd9;
+	padding-bottom:20px;
+	margin-bottom:20px;
+}
+.mod_housing_detail_shotcut .pic {
+	width:182px;
+	float:left;
+	display:inline;
+	margin-right:20px;
+}
+.mod_housing_detail_shotcut .pic img {
+	border:1px solid #e0d9d6;
+}
+.mod_housing_detail_shotcut .des {
+	float:left;
+	display:inline;
+	width:456px;
+}
+.mod_housing_detail_shotcut .des p {
+	font-size:16px;
+	line-height: 1.33em;
+}
+.google_map_box {
+	border:1px solid #e9e5e3;
+	padding:8px;
+	width:660px;
+	height:300px;
+}
+/* T5 */
+/* .mod_school_news_list  */
+
+
+.school_news_item {
+	overflow: hidden;
+	zoom:1;
+	margin-bottom:20px;
+}
+.school_news_item .pic {
+	width:180px;
+	float:left;
+	display:inline;
+}
+.school_news_item .des {
+	float:left;
+	display:inline;
+}
+.school_news_item .des h3 {
+	font-size:14px;
+	margin-bottom:0px;
+}
+.school_news_item .des .date {
+	background:url(../../images/en/icon_date.png) left center no-repeat;
+	padding-left:15px;
+	margin-bottom:5px;
+	color:#666666;
+}
+.school_news_item .des .data_source {
+	margin-bottom:5px;
+	color:#666666;
+}
+.school_news_item .des .data_source span {
+	margin-right:3px;
+}
+.school_news_item .des p {
+	font-size:14px;
+	line-height:18px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+/**/
+.mod_school_news_list {
+}
+.mod_school_news_list .school_news_item {
+	margin-bottom:25px;
+}
+.mod_school_news_list .school_news_item .pic {
+	margin-right: 18px;
+}
+.mod_school_news_list .school_news_item .des {
+	width:347px;
+}
+.mod_school_news_list .school_news_item .des h3 {
+}
+.mod_school_news_list .school_news_item .des .date {
+}
+.mod_school_news_list .school_news_item .des .data_source {
+}
+.mod_school_news_list .school_news_item .des .data_source span {
+}
+.mod_school_news_list .school_news_item .des .data_source a {
+	color:#d32e69;
+}
+.mod_school_news_list .school_news_item .des .data_source a:hover {
+	color:#fd4587;
+}
+.mod_school_news_list .school_news_item .des p {
+	font-family:Georgia, "Times New Roman", Times, serif;
+}
+.mod_school_news_list .linkbar {
+	padding-left:198px;
+}
+/* mod_calendar_picker */
+.mod_calendar_picker {
+}
+/* mod_upcoming_events_2 */
+.mod_upcoming_events_2 {
+}
+.mod_upcoming_events_2 .upcoming_events_item_2 {
+	color:#666666;
+	margin-bottom:15px;
+}
+.mod_upcoming_events_2 .upcoming_events_item_2 h3 {
+	margin-bottom:0px;
+}
+.mod_upcoming_events_2 .upcoming_events_item_2 .e_dt {
+	margin-bottom:5px;
+}
+.mod_upcoming_events_2 .upcoming_events_item_2 .e_dt .e_date {
+	background:url(../../images/en/icon_date.png) left center no-repeat;
+	padding-left: 15px;
+	margin-right:8px;
+}
+.mod_upcoming_events_2 .upcoming_events_item_2 .e_dt .e_time {
+	background:url(../../images/en/icon_time.png) left center no-repeat;
+	padding-left: 15px;
+}
+.mod_upcoming_events_2 .upcoming_events_item_2 .data_source {
+}
+.mod_upcoming_events_2 .upcoming_events_item_2 .data_source span {
+	margin-right:3px;
+}
+.mod_upcoming_events_2 .upcoming_events_item_2 .data_source a {
+	color:#d32e69;
+}
+.mod_upcoming_events_2 .upcoming_events_item_2 .data_source a:hover {
+	color:#fd4587;
+}
+.mod_upcoming_events_2 .linkbar {
+	margin-top:35px;
+}
+/* mod_recommend_blog */
+.mod_recommend_blog {
+	overflow: hidden;
+	zoom:1;
+}
+.mod_recommend_blog .pic {
+	width:152px;
+	float:left;
+	display:inline;
+	height:100%;
+	margin-right:20px;
+}
+.mod_recommend_blog .des {
+	width:373px;
+	float:left;
+	display:inline;
+}
+.mod_recommend_blog .des .bloger_brief {
+	font-size:14px;
+	line-height:18px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	margin-bottom:10px;
+}
+/* mod_newsletter */
+  
+.mod_newsletter {
+	background:url(../../images/en/mod_newsletter_bg.png) left top no-repeat;
+	padding-left:123px;
+}
+.mod_newsletter p {
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+.mod_newsletter .label_input_wrap label {
+	color: #999999;
+	left: 4px;
+	line-height: 24px;
+	position: absolute;
+	top: 0;
+}
+.mod_newsletter .input_text_gray {
+	display:block;
+}
+.mod_news_detail_wrap {
+}
+.mod_news_detail_wrap .news_detail_des {
+}
+.mod_news_detail_wrap h1 {
+	margin-bottom:0px;
+}
+.mod_news_detail_wrap .icon_date {
+}
+.mod_news_detail_wrap .icon_date .e_date {
+	background:url(../../images/en/icon_date.png) left center no-repeat;
+	padding-left: 15px;
+	margin-right:8px;
+}
+.mod_news_detail_wrap .icon_date .e_time {
+	background:url(../../images/en/icon_time.png) left center no-repeat;
+	padding-left: 15px;
+}
+.mod_news_detail_wrap .data_source {
+	margin-bottom:10px;
+}
+.mod_news_detail_wrap .data_source span {
+	margin-right:3px;
+}
+/* T7 */
+/* full_width_schoolnews_list */
+.full_width_schoolnews_list {
+}
+.full_width_schoolnews_list .school_news_item {
+	margin-bottom: 20px;
+	padding-bottom:20px;
+	overflow: hidden;
+	border-bottom:1px solid #e2dcd9;
+}
+.full_width_schoolnews_list .school_news_item .des {
+	display: inline;
+	float: left;
+	margin-right:25px;
+	width:691px;
+}
+.full_width_schoolnews_list .school_news_item .des .date {
+	padding-left:0px;
+	background:none;
+}
+.full_width_schoolnews_list .school_news_item .pic {
+	display: inline;
+	float: left;
+	width:180px;
+	height:100%;
+}
+/* t8 */
+.mod_find_school_search {
+	position:relative;
+}
+.mod_find_school_search h2 {
+	font-size:16px;
+	border-bottom:1px solid #e4e4e4;
+	margin-bottom:0px;
+	padding-bottom:10px;
+}
+.mod_find_school_search .col_1, .mod_find_school_search .col_2, .mod_find_school_search .col_3 {
+	float:left;
+	display:inline;
+	padding-top:10px;
+}
+.mod_find_school_search .col_1 td, .mod_find_school_search .col_2 td {
+	vertical-align:top;
+}
+.mod_find_school_search .col_1 {
+	padding-right:15px;
+	margin-right:15px;
+	width:170px;
+	background:url(../../images/en/line_h155.gif) right top no-repeat;
+}
+.mod_find_school_search .col_2 {
+	padding-right:15px;
+	margin-right:15px;
+	width:210px;
+	background:url(../../images/en/line_h155.gif) right top no-repeat;
+}
+.mod_find_school_search .col_3 {
+	width:210px;
+}
+.mod_find_school_search h3 {
+	color:#0596d5;
+	padding-left:25px;
+	line-height:25px;
+}
+.mod_find_school_search .col_1 h3 {
+	background:url(../../images/en/num1.png) left center no-repeat;
+}
+.mod_find_school_search .col_2 h3 {
+	background:url(../../images/en/num2.png) left center no-repeat;
+}
+.mod_find_school_search .col_3 h3 {
+	background:url(../../images/en/num3.png) left center no-repeat;
+}
+.mod_find_school_search .linkbar {
+	text-align:right;
+	width:100%;
+	clear:both;
+}
+.mod_find_school_search .linkbar .abtn_blue {
+	margin-left:10px;
+}
+.mod_find_school_search .newlink {
+	position:absolute;
+	left:370px;
+	top:320px;
+	display:none;
+}
+.mod_find_school_search .link_msg {
+	position:absolute;
+	width:200px;
+	left:420px;
+	top:320px;
+	display:none;
+}
+.link_msg .schools_msg {
+	font-size:14px;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#000;
+	padding:0 5px;
+}
+.link_msg .span_msg {
+	font-size:34px;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#3366ff;
+}
+.mod_find_school_search .view_go {
+	position:absolute;
+	left:420px;
+	top:380px;
+	width:232px;
+	display:none;
+}
+.view_go .view_image {
+	width:232px;
+	height:50px;
+	display:block;
+}
+.view_go .click_here {
+	overflow: hidden; 
+	position: absolute; 
+	width: 232px; 
+	height: 51px; 
+	right: 1px;
+}
+/*side_teaser*/
+.side_teaser {
+}
+/* t9 */
+.mod_school_index_s3 {
+}
+.mod_school_index_s3 {
+}
+.mod_school_info_summary {
+	overflow:hidden;
+	zoom:1;
+	margin-bottom:20px;
+}
+.mod_school_info_summary .leftside {
+	float:left;
+	display:inline;
+	width:231px;
+	margin-right:20px;
+}
+.mod_school_info_summary .rightside {
+	float:left;
+	display:inline;
+	width:427px;
+}
+.mod_school_info_summary .rightside .list_bdu li {
+	position:relative;
+	padding-right:85px;
+}
+.mod_school_info_summary .rightside .list_bdu li .date {
+	position:absolute;
+	top:0px;
+	right:0px;
+}
+.mod_school_info_summary .rightside .list_bdu li .mod_school_info_summary .school_logo {
+	margin-bottom:5px;
+}
+.mod_school_info_summary .school_logo img {
+	border:1px solid #e0dbd7;
+}
+.mod_school_info_summary .school_album_thumb_list {
+	width:231px;
+	overflow:hidden;
+}
+.mod_school_info_summary .school_album_thumb_list ul {
+	width:232px;
+}
+.mod_school_info_summary .school_album_thumb_list ul li {
+	float:left;
+	display:inline;
+	width:57px;
+	margin-bottom:5px;
+	margin-right:1px;
+}
+.mod_school_info_summary .school_album_thumb_list ul li img {
+	border:1px solid #e0dbd7;
+	width:55px;
+	height:34px;
+}
+.mod_school_info_summary .school_btnset {
+	margin-top:5px;
+}
+.mod_school_info_summary .school_btnset .abtn_brown, .mod_school_info_summary .school_btnset .abtn_brown span {
+	display:block;
+}
+.pdf_download .abtn_brown, .pdf_download .abtn_brown span {
+	display:block;
+}
+.pdf_download .btn_download_pdf {	
+	background:url(../../images/en/btn_download_pdf.png) 0 0 no-repeat transparent;
+	width:200px;
+	height:62px;
+	display:block;
+	overflow:hidden;
+	text-indent:-200px;
+}
+.mod_school_info_summary .school_btnset .abtn_brown {
+	margin-bottom:5px;
+}
+/*START tab*/
+.tab {
+}
+.tab .tab_holder {
+	position:relative;
+	z-index:11;
+}
+.tab .tab_holder ul {
+	overflow:hidden;
+	zoom:1;
+}
+.tab .tab_holder ul li {
+	float:left;
+	display:inline;
+	margin-right:5px;
+	height:38px;
+	background-image:url(../../images/en/bg_gradient_brown_h39.png);
+	background-repeat:repeat-x;
+	background-position:left top;
+	padding-left:5px;
+	border:1px solid #E1D9D6;
+}
+.tab .tab_holder ul li a {
+	display:inline-block;
+	height:35px;
+	line-height:35px;
+	background-repeat:no-repeat;
+	background-position:right -30px;
+	padding-left:5px;
+	padding-right:10px;
+	color:#fff;
+	font-size:14px;
+}
+.tab .tab_holder ul li.active {
+	background-position:left -60px;
+	border-color:#E1D9D6 #E1D9D6 #fff;
+	border-style:solid;
+	border-width:1px;
+}
+.mod_school_info_base .tab_holder ul {
+	margin-left:13px;
+}
+.tab .tab_holder ul li.active a {
+	background-position:right -90px;
+	color:#897165;
+}
+.tab .tab_cont {
+	border-top:1px solid #d8cfca;
+	border-bottom:1px solid #d8cfca;
+	padding:10px;
+	margin-top:-1px;
+	position:relative;
+	z-index:10;
+}
+/* END tab */
+
+.mod_school_info_base .ts1 {
+	font-size:13px;
+	line-height:22px;
+}
+.mod_school_info_base .ts1 th {
+	text-align:left;
+}
+.mod_school_info_base .ts1 th, .mod_school_info_base .ts1 td {
+	padding:3px 10px;
+}
+.mod_school_info_base .ts1 td {
+	border-left:1px solid #d8cfca;
+}
+.mod_school_base_info_table .campuses_list {
+	position:relative;
+}
+.mod_school_base_info_table .campuses_list a.c_num_wrap {
+	display:inline-block;
+	height:20px;
+	position:relative;
+	z-index:10;
+}
+.mod_school_base_info_table .campuses_list a.c_num_wrap span {
+	display:inline-block;
+	height:20px;
+	padding-left:5px;
+	padding-right:5px;
+	border-bottom:none;
+}
+.mod_school_base_info_table .campuses_list a.c_num_wrap span em {
+	display:inline-block;
+	width:20px;
+	height:20px;
+	line-height:20px;
+	background:url(../../images/en/arrow_blue_down.png) right center no-repeat;
+	paddng-right:20px;
+	font-style:normal;
+}
+.mod_school_base_info_table .campuses_list a.c_num_wrap span.active {
+	background-color:#fff;
+	border-top:1px solid #e2e3ea;
+	border-left:1px solid #e2e3ea;
+	border-right:1px solid #e2e3ea;
+	border-top-left-radius:3px;
+	-moz-border-radius-topleft:3px;
+	-webkit-border-top-left-radius:3px;
+	border-top-right-radius:3px;
+	-moz-border-radius-topright:3px;
+	-webkit-border-top-right-radius:3px;
+	box-shadow:2px -2px 2px #e2e3ea;
+	-webkit-box-shadow:2px -2px 2px #e2e3ea;
+	-moz-box-shadow:2px -2px 2px #e2e3ea;
+	text-indent:-1px;
+}
+.mod_school_base_info_table .campuses_list a.c_num_wrap span.active em {
+	background:url(../../images/en/arrow_blue.png) right center no-repeat;
+}
+.mod_school_base_info_table .campuses_list .tooltip_cont {
+	position:absolute;
+	left:0px;
+	top:20px;
+	z-index:9;
+	width:250px;
+	background-color:#fff;
+	padding:10px;
+	border:1px solid #e2e3ea;
+	border-top-left-radius:0px;
+	-moz-border-radius-topleft:0px;
+	-webkit-border-top-left-radius:0px;
+	border-top-right-radius:3px;
+	-moz-border-radius-topright:3px;
+	-webkit-border-top-right-radius:3px;
+	border-bottom-left-radius:3px;
+	-moz-border-radius-bottomleft:3px;
+	-webkit-border-bottom-left-radius:3px;
+	border-bottom-right-radius:3px;
+	-moz-border-radius-bottomright:3px;
+	-webkit-border-bottom-right-radius:3px;
+	box-shadow:2px 2px 2px #e2e3ea;
+	-webkit-box-shadow:2px 2px 2px #e2e3ea;
+	-moz-box-shadow:2px 2px 2px #e2e3ea;
+}
+.mod_school_base_info_table .campuses_list .tooltip_cont ul li {
+}
+.mod_school_base_info_table .campuses_list .tooltip_cont ul li a {
+	color:#d32e69;
+}
+.mod_school_base_info_table .campuses_list .tooltip_cont ul li a:hover {
+	color:#fd4587;
+}
+.mod_school_base_info_table .campuses_list .tooltip_cont ul li.cur a {
+	text-decoration:underline;
+}
+.pdf_download {
+	margin-bottom:15px;
+}
+.hultc_list {
+}
+.hultc_list li {
+	color:#d32e69;/*margin-bottom:5px;
+  border-bottom:1px solid #d32e69;*/
+}
+.hultc_list li span {
+	float:right;
+	color:#888888;
+}
+.accordion {
+}
+.accordion h3 {
+	height:23px;
+	line-height:23px;
+	cursor:pointer;
+	color:#d32e69;
+	background:url(../../images/en/accordion_hd_bg.png) left top no-repeat;
+	padding-left:8px;
+	font-weight:normal;
+	margin-bottom:0px;
+	margin-top:-1px;
+}
+.accordion .active h3{
+	background:url(../../images/en/accordion_hd_bg_active.png) left top no-repeat;
+	color: #897165;
+}
+.accordion .acc_item {
+	border-left:1px solid #eeeeee;
+	border-right:1px solid #eeeeee;
+	border-bottom:1px solid #eeeeee;
+	padding-left:7px;
+	padding-right:7px;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+.pop_box {
+	padding:15px 25px;
+}
+.pop_box .pop_box_tit {
+	border-bottom: 1px solid #E4E4E4;
+	font-size: 16px;
+	margin-bottom: 0;
+	padding-bottom: 10px;
+	color: #80695E;
+	font-weight:bold;
+}
+.pop_sent_pdf2email {
+	width:405px;
+}
+.pop_sent_pdf2email .form_table .col_1 {
+	width:50px;
+}
+.pop_sent_pdf2email .form_table .col_2 {
+	width:220px;
+}
+.pop_sent_pdf2email .form_table td, .pop_sent_pdf2email .form_table th {
+	vertical-align:top;
+}
+.pop_sent_pdf2email .form_table th {
+	padding-top:8px;
+}
+.pop_sent_pdf2email .doing_ajax_tip {
+	display:none;
+	color:#f00;
+	margin-top:3px;
+}
+.pop_sent_pdf2email_suc {
+	width:350px;
+	overflow:hidden;
+}
+.pop_sent_pdf2email_suc table {
+	width:100%;
+	table-layout:fixed;
+}
+.pop_sent_pdf2email_suc table td {
+	vertical-align:middle;
+	padding:5px;
+}
+#pop_find_school_search {
+	width:678px;
+	height:470px;
+	position:relative;
+}
+#fancybox-close {
+	top:-8px;
+	right:-8px;
+}
+#fancybox-title {
+	background:none;
+	height:28px;
+	line-height:28px;/*
+  background-image:url(../../images/en/fancybox_title_bg.png);
+  background-repeat:no-repeat;
+  background-position:left top;
+  padding-left:12px;
+  padding-top:0px;*/
+}
+#fancybox-title #fancybox-title-outside {
+	text-align:center;
+	font-weight:bold;
+	font-size:14px;/*
+  background-image:url(../../images/en/fancybox_title_bg.png);
+  background-repeat:no-repeat;
+  background-position:right -50px; 
+  padding-right:12px;
+  */
+}
+/* slide_v echo update 20121009 */
+.slide_v {
+	position:relative;
+	width:601px;
+}
+.slide_v .pic_box {
+	width:493px;
+	height:310px;
+	margin-bottom:10px;
+	position:relative;
+	background-color:#c7bbb5;
+}
+.slide_v .pic_box img {
+	width:493px;
+	height:310px;
+}
+.slide_v .pic_des {
+	width:493px;
+	height:20px;
+	line-height:20px;
+}
+.slide_v .holder {
+	width:98px;
+	position:absolute;
+	right:0px;
+	top:18px;
+	height:280px;
+	overflow:hidden;
+}
+.slide_v .holder ul {
+	position:absolute;
+	top:0px;
+	left:0px;
+}
+.slide_v .holder ul li {
+	width:98px;
+	height:62px;
+	position:relative;
+	margin-bottom:8px;
+}
+.slide_v .holder ul li img {
+	width:96px;
+	height:62px;
+}
+.slide_v .holder ul li .thumb_mask {
+	position:absolute;
+	left:0px;
+	top:0px;
+	display:block;
+	width:98px;
+	height:64px;
+	background-image:url(../../images/en/school_pop_gallery_thumb_mask.png);
+	background-repeat:no-repeat;
+	background-position:left top;
+}
+.slide_v .holder ul li.active .thumb_mask {
+	background-position:left -100px;
+}
+.slide_v .btn_prev_group a, .slide_v .btn_next_group a {
+	display:block;
+	width:96px;
+	height:15px;
+	background-image:url(../../images/en/pop_school_gallery_btn.png);
+	background-repeat:no-repeat;
+	position:absolute;
+	right:2px;
+}
+.slide_v .btn_prev_group a {
+	top:0px;
+	background-position:left top;
+}
+.slide_v .btn_prev_group a.disabled {
+	background-position:-100px top;
+}
+.slide_v .btn_next_group a {
+	top:295px;
+	background-position:left -50px;
+}
+.slide_v .btn_next_group a.disabled {
+	background-position:-100px -50px;
+}
+#pop_school_gallery .tab_holder ul {
+	padding-left:10px;
+}
+#pop_school_gallery .tab_cont {
+	padding:10px 0px 0px 0px;
+	border:none;
+	border-top:1px solid #c7bbb5;
+}
+/* mod_blog_article_categories_list echo update 20121012 */
+.mod_blog_article_categories_list {
+}
+.mod_blog_article_categories_list li {
+}
+.mod_blog_article_categories_list li a {
+	color:#888888;
+}
+.mod_blog_article_categories_list li a span {
+	color: #D32E69;
+}
+/* .blog_article_brief_list echo update 20121012 */
+.blog_article_brief_list {
+}
+.blog_article_brief_list .blog_article_brief_cell {
+	border-bottom:1px solid #ccc1bc;
+	margin-bottom:13px;
+	padding-bottom:50px;
+	overflow:hidden;
+}
+.blog_article_brief_list article.last {
+	border-bottom:none;
+}
+.blog_article_brief_list .blog_article_brief_cell .blog_article_brief_tit a {
+	font-size:20px;
+	font-weight:bold;
+}
+.blog_article_brief_list .blog_article_brief_cell .hint {
+	width:100%;
+	margin-bottom:10px;
+}
+.blog_article_brief_list .blog_article_brief_cell .pic {
+	width:229px;
+	height:140px;
+	border:1px solid #e1dad7;
+	float:left;
+	display:inline;
+	margin-right:12px;
+}
+.blog_article_brief_list .blog_article_brief_cell .right_side {
+	width:435px;
+	float:left;
+	display:inline;
+}
+.blog_article_brief_list .blog_article_brief_cell .right_side .des {
+	font-size:14px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color:#666666;
+}
+.blog_article_brief_list .blog_article_brief_cell .right_side .more {
+	margin-top:20px;
+}
+/* mod_advanced_search T10 */
+.mod_advanced_search {
+}
+.mod_advanced_search form {
+}
+.mod_advanced_search form fieldset {
+	padding-bottom:10px;
+	margin-bottom:10px;
+	background:url(../../images/en/separate_line_w480h1_e4e4e4.png) right bottom no-repeat;
+}
+.mod_advanced_search form fieldset.last {
+	background:none;
+}
+.mod_advanced_search .city_area_list {
+	display:none;
+	background-color:#e4e4e4;
+	padding:10px;
+	overflow:hidden;
+	width:460px;
+}
+.mod_advanced_search .city_area_list .label_list {
+	overflow:hidden;
+	zoom:1;
+	width:480px;
+}
+.mod_advanced_search .city_area_list .label_list label {
+	width:140px;
+	display:inline-block;
+	margin-bottom:5px;
+	float:left;
+}
+/* T13_5 */
+.diy_school_faq_list {
+}
+.diy_school_faq_item {
+	margin-bottom:20px;
+}
+.diy_school_faq_item .faq_item_tip {
+	margin-bottom:5px;
+	font-weight:bold;
+	color:#80695E;
+}
+.diy_school_faq_item .faq_item_q {
+	margin-bottom:5px;
+}
+/* T13_6 */
+.backend_school_gallery_pic_list {
+	width:698px;
+	zoom:1;
+}
+.backend_school_gallery_pic_list .backend_school_gallery_pic_item {
+	float:left;
+	display:inline;
+	margin-right:20px;
+	width:329px;
+	margin-bottom:20px;
+}
+.backend_school_gallery_pic_list .backend_school_gallery_pic_item .pic {
+	width:329px;
+	height:207px;
+	overflow:hidden;
+	margin-bottom:5px;
+}
+.backend_school_gallery_pic_list .backend_school_gallery_pic_item .pic img {
+	width:329px;
+	height:207px;
+}
+.backend_school_gallery_pic_list .backend_school_gallery_pic_item .tit {
+	font-weight:bold;
+}
+/* 忘记密码表单 */
+#tl_lost_password {
+}
+#tl_lost_password .form_table {
+}
+#tl_lost_password .form_table .col_0 label, #forgotpassword .form_table .col_0 label {
+	color: #80695E;
+	font-weight:bold;
+	font-size: 14px;
+}
+#tl_lost_password input.text, #forgotpassword input.text {
+	border: 1px solid #D5CDC9;
+	height: 21px;
+	line-height: 18px;
+	padding: 1px 2px;
+	width: 200px;
+}
+/* adminlogin 表单 */
+.mod_backend_admin_login_form {
+}
+.mod_backend_admin_login_form .form_table .col_0 label {
+	color: #80695E;
+	font-weight:bold;
+	font-size: 14px;
+}
+/* 学校搜索结果页 */
+.mod_se_result_school_list {
+}
+/*表头 */
+.mod_se_result_school_list .ts2_hd {
+	color:#fff;
+	font-weight:bold;
+	width:896px;
+	height:29px;
+	position:relative;
+	z-index:1;
+}
+.mod_se_result_school_list .ts2_hd .col {
+	position:absolute;
+	bottom:0px;
+	height:25px;
+	border-top:1px solid #907d74;
+	border-right:1px solid #907d74;
+	background:url(../../images/en/ts2_hd_bg.png) left bottom repeat-x;
+	z-index:1;
+}
+.mod_se_result_school_list .ts2_hd .col .i9_blue_ac {
+	display:none;
+	position:absolute;
+	width:9px;
+	height:9px;
+	background:url(../../images/en/i9_blue_ac.png) left top no-repeat;
+	left:0px;
+	top:-1px;
+	z-index:99;
+}
+.mod_se_result_school_list .ts2_hd .col .col_inner {
+	height:15px;
+	line-height:15px;
+	padding-left:6px;
+	padding-right:4px;
+	padding-top:5px;
+	padding-bottom:5px;
+	background:url(../../images/en/ts2_hd_col2_bg.png) left top repeat-y;
+	z-index:2;
+	position:relative;
+}
+.mod_se_result_school_list .ts2_hd .col .col_inner table.cc2c {
+	border-collapse:collapse;
+	border-spacing:0px;
+	table-layout:fixed;
+}
+.mod_se_result_school_list .ts2_hd .col .col_inner table.cc2c td {
+	text-align:center;
+	border:none;
+}
+.mod_se_result_school_list .ts2_hd .col_1 {
+	width:254px;
+	/*width:230px;*/
+  left:0px;
+	border-left:1px solid #907d74;
+}
+.mod_se_result_school_list .ts2_hd .col_1 .col_inner {
+	background:none;
+}
+.mod_se_result_school_list .ts2_hd .col_2 {
+	width:190px;
+	/*width:140px;*/
+  text-align:center;
+	left:255px;/*left:230px;*/
+}
+.mod_se_result_school_list .ts2_hd .col_3 {
+	width:60px;/*width:140px;*/
+	text-align:center;
+	left:445px;
+	/*left:370px;*/
+  cursor:pointer;
+}
+.mod_se_result_school_list .ts2_hd .col_4 {
+	width:91px;/*width:90px;*/
+	text-align:center;
+	left:506px;
+	/*left:490px;*/
+  cursor:pointer;
+}
+.mod_se_result_school_list .ts2_hd .col_5 {
+	width:65px;
+	text-align:center;
+	left:598px;
+	/*left:580px;*/
+  cursor:pointer;
+}
+.mod_se_result_school_list .ts2_hd .col_6 {
+	width:75px;
+	/*width:225px;*/
+ /* left:670px;*/
+  
+  left:664px;
+}
+.mod_se_result_school_list .ts2_hd .col_7 {
+	width:155px;
+	/*width:225px;*/
+ /* left:670px;*/
+  
+  left:740px;
+}
+.mod_se_result_school_list .ts2_hd .sort_icon {
+	vertical-align:top;
+}
+/* 激活状态 */
+.mod_se_result_school_list .ts2_hd div.active_filter_div {
+	z-index:9;
+	height:30px;
+}
+.mod_se_result_school_list .ts2_hd div.active_filter_div .i9_blue_ac {
+	display:block;
+}
+.mod_se_result_school_list .ts2_hd div.active_filter_div .col_inner {
+	padding-top:10px;
+}
+/*表身*/
+/*.mod_se_result_school_list .ts2  */
+.mod_se_result_school_list .ts2 {
+	position:relative;
+	z-index:2;
+}
+.mod_se_result_school_list .ts2 .col_1 {
+	width:244px;
+	padding-left:6px;
+	padding-right:4px;
+}
+.mod_se_result_school_list .ts2 .col_2 {
+	width:182px;
+	padding-left:6px;
+	padding-right:4px;
+	overflow:hidden;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+}
+.mod_se_result_school_list .ts2 .col_3 {
+	width:51px;
+	padding-left:6px;
+	padding-right:4px;
+}
+.mod_se_result_school_list .ts2 .col_4 {
+	width:82px;
+	padding-left:6px;
+	padding-right:4px;
+}
+.mod_se_result_school_list .ts2 .col_5 {
+	width:57px;
+	padding-left:6px;
+	padding-right:4px;
+}
+.mod_se_result_school_list .ts2 .col_6 {
+	padding-left:6px;
+	padding-right:4px;
+	text-align:left;
+		width:66px;
+}
+.mod_se_result_school_list .se_result_school_item {
+}
+.mod_se_result_school_list .se_result_school_item .col_1 {
+	font-size:12px;
+	font-weight:bold;
+}
+.mod_se_result_school_list .se_result_school_item .col_2 {
+	text-align:center;
+}
+.mod_se_result_school_list .se_result_school_item .col_3 {
+	text-align:center;
+}
+.mod_se_result_school_list .se_result_school_item .col_4 {
+	text-align:center;
+}
+.mod_se_result_school_list .se_result_school_item .col_5 {
+	text-align:center;
+}
+.mod_se_result_school_list .se_result_school_item .col_6 {
+	text-align:center;
+}
+.mod_se_result_school_list .se_result_school_item .col_7 {
+	padding:0;
+}
+.mod_se_result_school_list .se_result_school_item .col_7 table {
+	table-layout:fixed;
+	width:100%;
+}
+.mod_se_result_school_list .se_result_school_item .col_7 .school_curriculum_type_inner {
+	position:relative;
+}
+.mod_se_result_school_list .se_result_school_item .col_7 table td {
+	border:none;
+}
+.mod_se_result_school_list .se_result_school_item .col_7 .school_curriculum_type_t {
+	color:#666666;
+	width:120px;
+}
+.mod_se_result_school_list .se_result_school_item td.school_location a {
+}
+.mod_se_result_school_list .se_result_school_item td.school_location a span {
+	white-space:nowrap;
+	text-overflow:ellipsis;
+	display:inline-block;
+	padding-left:15px;
+}
+/**/
+.mod_se_result_school_list .item_tool_set {
+	width:15px;
+	text-align:right;
+}
+.mod_se_result_school_list .item_tool_set .i15_add2favo {
+	display:block;
+	margin:0 auto;
+	margin-bottom:5px;
+}
+.mod_se_result_school_list .item_tool_set .i15_add2compare {
+	display:block;
+	margin:0 auto;
+}
+/* school_faqs_list */
+.school_faqs_list .faq_tit {
+	color:#D32E69;
+	background-image:url(../../images/en/i15_arr_dd2.png);
+	background-repeat:no-repeat;
+	background-position:left center;
+	padding-left:20px;
+}
+.school_faqs_list .active .faq_tit {
+	background-position:-1000px center;
+}
+.school_faqs_list .faq_cont {
+	padding-left:20px;
+}
+/* calendar */
+.mod_calendar {
+	margin-bottom:30px;
+}
+.mod_calendar .minicalendar {
+	border-spacing:0px;
+	border-collapse:collapse;
+}
+.mod_calendar .minicalendar thead {
+}
+.mod_calendar .minicalendar thead th.head {
+	padding-top:3px;
+	padding-bottom:3px;
+	border-top:1px solid #d4cbc5;
+	border-bottom:1px solid #d4cbc5;
+	background-color:#f8f5f1;
+	text-align:center;
+	vertical-align:middle;
+}
+.mod_calendar .minicalendar thead tr th.previous {
+	border-left:1px solid #d4cbc5;
+}
+.mod_calendar .minicalendar thead tr th.previous a {
+	border:none;
+	display:inline-block;
+	width:17px;
+	height:17px;
+	text-indent:-999em;
+	outline:none;
+	overflow:hidden;
+	background:url(../../images/en/arr_dd2_prev.png) left center no-repeat;
+}
+.mod_calendar .minicalendar thead tr th.next {
+	border-right:1px solid #d4cbc5;
+}
+.mod_calendar .minicalendar thead tr th.next a {
+	border:none;
+	display:inline-block;
+	width:17px;
+	height:17px;
+	text-indent:-999em;
+	outline:none;
+	overflow:hidden;
+	background:url(../../images/en/arr_dd2_next.png) left center no-repeat;
+}
+.mod_calendar .minicalendar thead tr th.current {
+	font-size:15px;
+	font-weight:bold;
+	color:#80695e;
+}
+.mod_calendar .minicalendar thead th.label {
+	color:#80695e;
+	font-weight:bold;
+	background-color:#eae1d4;
+	border-right:1px solid #d4cbc5;
+	border-bottom:1px solid #d4cbc5;
+	padding-top:3px;
+	padding-bottom:3px;
+	font-size:14px;
+}
+.mod_calendar .minicalendar thead tr th.weekend {
+	color:#199cd5;
+	font-weight:bold;
+	background-color:#eae1d4;
+	padding-top:3px;
+	padding-bottom:3px;
+	font-size:14px;
+}
+.mod_calendar .minicalendar thead tr th.col_last {
+	border-right:none;
+}
+.mod_calendar .minicalendar thead th span {
+	display:none;
+}
+.mod_calendar .minicalendar tbody {
+}
+.mod_calendar .minicalendar tbody td {
+	border-right:1px solid #d4cbc5;
+	border-bottom:1px solid #d4cbc5;
+	text-align:center;
+	padding-top:3px;
+	padding-bottom:3px;
+	color:#80695e;
+}
+.mod_calendar .minicalendar tbody tr td.col_last {
+	border-right:none;
+}
+.mod_calendar .minicalendar tbody tr td.active {
+	background-color:#199cd5;
+}
+.mod_calendar .minicalendar tbody tr td.active a {
+	color:#fff;
+}
+/*backend */
+.mod_backend_school_faq {
+}
+.mod_backend_school_faq .input_text, .mod_backend_school_faq .textarea {
+	width:600px;
+}
+.mod_banckend_school_news_edit_form .input_text {
+}
+.mod_backend_school_fee .textarea {
+	width:508px;
+}
+#mod_banckend_school_news_edit_form .textarea, #mod_banckend_school_news_edit_form .input_text {
+	width:600px;
+}
+#mod_banckend_event_edit_form .input_text {
+	width:600px;
+}
+#mod_banckend_school_news_add_form .input_text {
+	width:600px;
+}
+#school_event_add_tit {
+	width:600px;
+}
+#mod_backend_blog_add_form .input_text, #mod_backend_blog_add_form .textarea {
+	//width:600px;
+}
+#mod_backend_blog_edit_form .input_text, #mod_backend_blog_edit_form .textarea {
+	width:600px;
+}
+/* pop google map */
+
+#map_canvas {
+	width:896px;
+	height:500px;
+}
+.pop_google_map {
+	width:630px;
+	height:450px;
+	padding:10px;
+	background-color:#fff;
+	background-color:rgba(255,255,255,0.8);
+	overflow:hidden;
+}
+.pop_google_map #map_canvas {
+	width:630px;
+	height:450px;
+}
+.pop_google_map_around,.pop_google_map_around #map_canvas {
+	width:800px;
+	height:600px;
+	}
+/* .mod_se_result_housing */
+
+.mod_se_result_housing {
+}
+.mod_se_result_housing .thead_brown {
+}
+.mod_se_result_housing .thead_brown li.col_1 {
+	width:350px;
+}
+.mod_se_result_housing .thead_brown li.col_2 {
+	padding-left:30px;
+}
+.mod_se_result_housing .house_se_result_list {
+}
+.mod_se_result_housing .house_se_result_list .house_se_result_item {
+	padding-bottom:8px;
+	padding-top:8px;
+	border-bottom:1px solid #dddddd;
+}
+.mod_se_result_housing .house_se_result_list .house_se_result_item .info_brief {
+	overflow:hidden;
+	zoom:1;
+}
+.mod_se_result_housing .house_se_result_list .house_se_result_item .info_brief .tit {
+	width:350px;
+	padding-left:7px;
+	padding-right:7px;
+	float:left;
+	display:inline;
+}
+.mod_se_result_housing .house_se_result_list .house_se_result_item .info_brief .tit .num {
+	color:#008000;
+	padding-right:10px;
+}
+.mod_se_result_housing .house_se_result_list .house_se_result_item .info_brief .tit a {
+	color:#008000;
+}
+.mod_se_result_housing .house_se_result_list .house_se_result_item .info_brief .tit .subcategory {
+	font-weight:normal;
+	color:#666666;
+	padding-left:5px;
+	font-size:11px;
+}
+.mod_se_result_housing .house_se_result_list .house_se_result_item .info_brief .location {
+	width:300px;
+	padding-left:7px;
+	padding-right:7px;
+	float:left;
+	display:inline;
+	overflow:hidden;
+}
+.mod_se_result_housing .house_se_result_list .house_se_result_item .info_more {
+	padding-left:8px;
+	padding-right:10px;
+}
+.mod_se_result_housing .house_se_result_list .house_se_result_item .info_more .des {
+	padding-bottom:5px;
+}
+.mod_se_result_housing .house_se_result_list .house_se_result_item .info_more .des p{
+			margin-bottom:0px;
+	}
+.mod_se_result_housing .house_se_result_list .house_se_result_item .info_more .facilities {
+	padding-bottom:5px;
+	color:#008000;
+
+
+}
+.mod_se_result_housing .house_se_result_list .house_se_result_item .info_more .facilities p{
+		font-style:italic;
+			font-size:11px;
+			margin-bottom:0px;
+	}
+.mod_se_result_housing .house_se_result_list .house_se_result_item .info_more .linkbar {
+}
+.mod_se_result_housing .house_se_result_list .house_se_result_item .info_more .linkbar a {
+	margin-right:30px;
+}

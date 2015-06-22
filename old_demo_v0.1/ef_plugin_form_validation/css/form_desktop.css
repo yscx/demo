@@ -1,0 +1,198 @@
+@charset "utf-8";
+/* CSS Document */
+/* -------------------------  START reset -------------------------  */
+
+html {
+	-webkit-text-adjust:none;
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, figure {
+	margin:0;
+	padding:0;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display:block
+}
+ul {
+	list-style:none;
+}
+table {
+	border-collapse:separate;
+	border-spacing:0;
+}
+img {
+	border:0;
+}
+html {
+	font-size:125%;
+}
+body {
+	overflow-x:hidden;
+	overflow-y:scroll;
+	font-family:Georgia, "Times New Roman", Times,'微软雅黑', serif;
+	font-size:14px;
+	color:#444;
+	border-top:3px solid #444;
+	background-color:#e4e6e5;
+	overflow-x:hidden;
+}
+body.b2 {
+	background-color:#ececec;
+}
+a {
+	color:#409f89;
+	text-decoration:none;
+	-webkit-transition:color .25s ease-out;
+	-moz-transition:color .25s ease-out;
+	-o-transition:color .25s ease-out;
+	transition:color .25s ease-out;
+}
+a:hover {
+	color:#444;
+	text-decoration:none;
+}
+h1, h2, h3, h4, h5 {
+	margin-bottom:20px;
+	font-weight:normal;
+	line-height:170%;
+}
+h1 {
+	font-size:2.5em;
+}
+h2 {
+	font-size:1.8em;
+}
+h3 {
+	font-size:1.3em;
+}
+h4 {
+	margin-bottom:20px;
+	font-size:.9em;
+	font-weight:normal;
+}
+h5 {
+	font-size:1em;
+}
+p, blockquote {
+	margin-bottom:20px;
+	line-height:170%;
+}
+input[type=submit] {
+	-webkit-appearance:none;
+}
+
+
+
+
+
+/* -------------------------  end reset -------------------------  */
+
+/* layout */
+.page_wrap {
+	width:1060px;
+	margin:0 auto;
+}
+.m_cont{
+	width:800px;
+	float:left;
+	display:inline;
+	margin-right:20px;
+	
+}
+aside{
+	width:200px;
+	float:left;
+	display:inline;
+	
+}
+
+.abtn_green_30{
+	display:inline-block;
+	height:30px;
+	line-height:30px;
+	color:#fff;
+	text-align:center;
+	padding-left:30px;
+	padding-right:30px;
+	background-color:#409F89;
+	border-radius:5px;
+	
+}
+/*
+form elements
+table layout
+
+*/
+/* jQuery ui */
+.ui-datepicker select.ui-datepicker-month, .ui-datepicker select.ui-datepicker-year{
+	width:80px;	
+}
+.form_table{
+	table-layout:fixed;
+	width:100%;	
+}
+
+.form_table th,.form_table td{
+	vertical-align:top;
+	padding-top:5px;
+	padding-top:5px;
+}
+/* error_tip ,error */
+.red{
+color:#f00;	
+}
+.error_tip{
+	display:none;	
+	color:#f00;
+}
+.error .error_tip{
+	display:block;
+}
+.error .input_text{
+	border:1px solid #f00;
+}
+/* fieldset */
+fieldset{
+	border:none;
+	padding-bottom:20px;	
+	margin-bottom:20px;
+	border-bottom:1px dotted #333;
+}
+fieldset legend{
+	font-size:16px;
+	font-weight:bold;
+	padding-bottom:10px;
+	display:block;	
+}
+/* input */
+.input_text{
+	border:1px solid #999999;
+	padding:1px 2px;
+	height:24px;
+	line-height:1em;
+	width:300px;
+	
+}
+/* textarea */
+.textarea{
+	border:1px solid #999999;
+	padding:1px 2px;
+	width:300px;
+	height:80px;
+}
+/* label_input_wrap */
+.label_input_wrap{
+	position:relative;	
+	display:inline-block;
+}
+.label_input_wrap label{
+	position:absolute;
+	left:4px;
+	top:2px;
+	line-height:24px;
+}
+
+
+
+
+
+

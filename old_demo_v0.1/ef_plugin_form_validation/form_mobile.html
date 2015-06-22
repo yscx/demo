@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>page title</title>
+<link rel="stylesheet" type="text/css" href="css/form_mobile.css" />
+<script type="text/javascript" src="js/jquery-1.10.2.min.js" ></script>
+<script type="text/javascript" src="js/echo_jquery_fn_jsv_1.02.js" ></script>
+</head>
+<body>
+<div class="page_wrap">
+	<div class="mod_reservation_wrap">
+<h1 class="page_tit">Reservations [using for mobile]</h1>
+<div class="js_form_wrap mod_reservation_form_wrap" id="reservation_form_all">
+	<form class="jsv_form mod_reservation_form js_reservation_form" method="post">
+	<p>To make a reservation at one of our restaurants, just fill in the form below and click on submit .</p>
+	<br>
+	<div class="mod_venue_filter">
+	<select class="js_venue_filter js_data_item" name="reservationsType" autocomplete="off">
+	<option value="0">Please select the venue.</option>
+	<option value="M on the bund">M on the Bund Shanghai</option>
+	<option value="Capital M">Capital M Beijing</option>
+	<option value="Glamour Bar">Glamour Bar Shanghai</option>
+	</select>
+	<div class="venue_error js_venue_error">Please select a venue.</div>
+	</div>
+	<br>
+							<div class="row jsv_fe_wrap">
+								<div class="col_1">Name*</div>
+								<div class="col_2">
+									<input class="jsv_fe input_text js_data_item" id="mr03_reservation_name" data-jsv-type="text" type="text" name="name" data-error-tip="Please input your name." disabled="disabled">
+									<div class="error_tip jsv_error_tip"></div>
+								</div>
+								
+							</div>
+							<div class="row jsv_fe_wrap">
+								<div class="col_1">Phone*</div>
+								<div class="col_2">
+									<input class="jsv_fe input_text js_data_item" id="mr03_reservation_phone" data-jsv-type="number" type="number" name="phone" data-error-tip="Please input your phone number.|Please input your phone number. Numbers only." disabled="disabled">
+									<div class="error_tip jsv_error_tip"></div>
+								</div>
+								
+							</div>
+							<div class="row jsv_fe_wrap">
+								<div class="col_1">Guests*</div>
+								<div class="col_2"> <span class="number_range_wrap js_change_number"><span class="arr_left js_btn_reduce"></span>
+									<input class="jsv_fe input_text js_num js_data_item" data-jsv-type="number" type="number" min="1" name="people_number" data-error-tip="Please input your people number." value="1" disabled="disabled">
+									<span class="arr_right js_btn_add"></span></span>
+									<div class="error_tip jsv_error_tip"></div>
+								</div>
+								
+							</div>
+							<div class="row jsv_fe_wrap">
+								<div class="col_1">Date*</div>
+								<div class="col_2"><span class="label_input_wrap date_selector_wrap">
+									<input class="input_text jsv_fe js_m_datepicker js_input js_data_item" data-jsv-type="date" type="date" min="2014-01-09" name="date" data-error-tip="Please select date.|Invalid date or invalid date format.|You have chosen a date in the past." id="reservation_date" disabled="disabled">
+									<!--<label for="reservation_date">2014-01-10</label>-->
+									</span>
+									
+									<div class="error_tip jsv_error_tip"></div>
+									
+								</div>
+								
+							</div>
+							<div class="row jsv_fe_wrap">
+								<div class="col_1">Time*</div>
+								<div class="col_2"><span class="label_input_wrap time_selector_wrap">
+									<input class="input_text jsv_fe js_m_timepicker js_input js_data_item" data-jsv-type="time" type="time" min="11:30" max="22:30" data-multi_time_area="true" data-time_area_array="11:30-14:30|18:00-22:30" step="15" name="time" data-error-tip="Please select time.|Invalid time or invalid time format.|You have chosen a time outside our revervation hours (11:30-14:30 and 18:00-22:30)." id="reservation_time" disabled="disabled">
+									<!--<label for="reservation_time">2014-01-09</label>-->
+									</span>
+									<div class="error_tip jsv_error_tip"></div>
+									
+								</div>
+								
+							</div>
+							<div class="row">
+							
+							<div class="col_2">
+								  <input type="hidden" name="is_submit" value="yes" class="js_data_item">
+								  
+								
+									<p><a href="javascript:;" class="js_submit btn_submit btn_size_l">Submit</a></p>
+									<p class="submit_error js_submit_error">Sorry, submit error. Please submit again.</p>
+	
+							</div>
+							
+							</div>
+							<div class="hide">
+							
+							</div>
+						</form>
+	<div class="thankyou_reservation content_style js_suc" style="display:none;">
+		  <p>Thank you for your reservation! We’ll get back to you with a confirmation shortly, and look forward to seeing you in the restaurant.</p>
+		  
+		  <table border="0" cellspacing="0" cellpadding="0" class="data_table js_data_table">
+			  <colgroup>
+			  <col width="150">
+			  <col>
+			  </colgroup>
+			  <tbody><tr>
+			  <th>Venue</th>
+			  <td data-name="reservationsType"></td>
+			  </tr>
+			  <tr>
+				<th>Name:</th>
+				<td data-name="name"></td>
+			  </tr>
+			  <tr>
+				<th>Guests:</th>
+				<td data-name="people_number"></td>
+			  </tr>
+			  <tr>
+				<th>Date:</th>
+				<td data-name="date"></td>
+			 </tr><tr>
+				<th>Time:</th>
+				<td data-name="time"></td>
+			  </tr>
+			   <tr>
+				<th>Phone:</th>
+				<td data-name="phone"></td>
+			  </tr>
+		</tbody></table>
+		<br>
+		<p><a href="http://office.mediaman.com.cn/dev/contao/mr03/index-mobile-en.html" class="btn_size_l">Back to Homepage</a></p>
+	</div>
+</div>
+
+					
+<script type="text/javascript">
+jQuery(function(){
+  (function(){
+	    var $wrap = jQuery('.js_form_wrap');
+		var $suc = $wrap.find('.js_suc');
+		var $root = $wrap.find('.js_reservation_form');
+		var $btn_submit = $root.find('.js_submit');
+		var $people_num_input = $root.find('.js_num');
+		var $btn_add = $root.find('.js_btn_add');
+		var $btn_reduce = $root.find('.js_btn_reduce');
+		var cur_num = 1;
+		
+		var $date_input  = $root.find('.js_m_datepicker');
+		var $time_input = $root.find('.js_m_timepicker');
+		var $submit_error = $root.find('.js_submit_error');
+		
+		var $venue_filter = $root.find('.js_venue_filter');
+		
+		var total_switch = false;
+		
+		var form_data_obj = {};
+		
+		var $loading_layer = $root.find('.js_loading').clone().appendTo(jQuery('body'));
+		$root.find('.js_loading').remove();
+		jQuery('body .js_loading').hide();
+		
+		
+		function init_venue_filter(){
+			if($venue_filter.find('option:selected').val()=='0'){
+				$root.find('.jsv_fe').attr('disabled','disabled');
+				total_switch =  false;
+			}else{
+			    $root.find('.jsv_fe').removeAttr('disabled');
+				total_switch = true;
+			}			
+			return total_switch;
+		}
+		
+		
+		init_venue_filter();
+		
+		$venue_filter.change(function(){
+		    if(!init_venue_filter()){
+			   $venue_filter.next('.js_venue_error').show();
+			}else{
+				$venue_filter.next('.js_venue_error').hide();
+			};
+		});
+		
+		$root.find('.js_label_input').each(function(){
+			jQuery(this).label_input();
+		});
+		
+		$root.blur_validate();
+	
+		$root.find('.jsv_fe').focus(function(){
+			$submit_error.hide();
+		});
+	
+		$btn_add.click(function(){
+			if(total_switch){
+				cur_num = cur_num + 1;
+				$people_num_input.val(cur_num);
+			}
+		});
+		
+		$btn_reduce.click(function(){
+			if(total_switch){
+				if(cur_num>1){
+					cur_num = cur_num - 1;
+					$people_num_input.val(cur_num);
+				};
+			};
+		});
+		
+		function numChange(){
+		     var input_str = $people_num_input.val();
+			 var num_pattern = /^[\d]{0,}$/;
+			 
+			 if(input_str.search(num_pattern)===0){
+				cur_num = Math.abs(parseInt(input_str));
+				$people_num_input.val(cur_num);
+			 }else{
+			     $people_num_input.val('1');
+				 cur_num = 1;
+			 };
+		}
+		
+	  $people_num_input.keyup(function () {
+		numChange();
+	  });
+	  
+	  $people_num_input.change(function () {
+		numChange();
+	  });
+		
+	$root.blur_validate();  
+
+
+	 $btn_submit.click(function(){
+		if(!total_switch){//如果未选择哪家餐厅
+			$venue_filter.next('.js_venue_error').show();
+		}else{//如果已选择哪家餐厅
+		    $venue_filter.next('.js_venue_error').hide();
+			if($root.validate_form()){
+				 jQuery('body').find('.js_loading').show(1,function(){
+					 
+					  form_data_obj = $root.get_formData();
+					  form_data_obj['type']= 'ajax';
+					  
+					  //$root.submit();
+					  jQuery.ajax({
+						   url:'m-m-reservationsall-en.html',
+						   data:form_data_obj,
+						   type:'POST',
+						   success:function(html){
+									if(html=='yes'){
+										$root.hide();
+										(function(){
+											var $cell = $suc.find('td').filter('[data-name]');
+											$cell.each(function(){
+											   var $this_cell = jQuery(this);
+											   var name = 	$this_cell.attr('data-name');
+											  
+											   $this_cell.html(form_data_obj[name]);
+											});
+										})();
+										
+										 $suc.find('td').filter('[data-name="reservationsType"]').html($venue_filter.find('option').filter(':selected').html());
+										 $suc.show();
+										 jQuery('.js_loading').hide();
+									}else if(html=='no'){
+										 jQuery('.js_loading').hide();
+										 $submit_error.show();
+									};
+	
+						   },
+						   complete:function(){
+							   
+						   },
+						   error:function(){
+							   
+						   }
+					  });
+					  return false;
+				 });
+			};
+		};
+	 });
+	 
+	 
+
+	  
+  })();
+
+})
+</script>
+
+
+</div>
+</div>
+</body>
+</html>
